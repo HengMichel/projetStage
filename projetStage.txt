@@ -1,0 +1,143 @@
+ 1: Site vitrine = enseigne ,photo , présentation courte , pas de navbar , pas de formulaire.
+
+	- trouver la bonne font police
+	- thème (couleur de l'entreprise)
+	- construire un site qui sera utilisé majoritairment avec un smartphone -> maximiser l'expérience utilisateur
+	- classé les photos des produits par catégorie
+	- icone : (clim ,carte bleu ,ticket resto , couteau fourchette  (dejeuner sur place),  
+
+ 2: souhaits : 
+
+	- clients peuvent laisser des commentaires... (lien de redirection plus simple) 
+  	- adresse + carte gps
+	- numéro de téléphone
+	- site référencé via google
+	- indiquer les horaires
+	- les modes de paiement acceptés (logos icones)
+	- possibilité de déjeuner sur place (logos + logo clim)
+	
+
+
+
+-Les étapes a faire pour utiliser l'Api google pour les connexion 
+
+
+ Voici une approche générale :
+
+	-Intégration de Google Sign-In :
+
+	- Intégrez le script Google Sign-In sur votre site HTML. Vous pouvez l'ajouter à la section <head> de votre page.
+	html
+	Copy code
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+
+	Ajout du bouton de connexion :
+
+	Ajoutez un bouton de connexion Google à votre page. Vous pouvez utiliser le bouton g-signin2.
+	html
+	Copy code
+	<div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+	Gestion côté client :
+	
+	Utilisez JavaScript pour récupérer les informations de l'utilisateur après la connexion.
+	html
+	Copy code
+	<script>
+    	function onSignIn(googleUser) {
+        	var profile = googleUser.getBasicProfile();
+        	var userName = profile.getName();
+       	 var userEmail = profile.getEmail();
+
+        	// Vous pouvez utiliser ces informations pour personnaliser l'expérience de l'utilisateur ou afficher un formulaire de commentaire.
+        	// Par exemple, pré-remplir le champ "Nom" avec userName.
+        	// Afficher un formulaire de commentaire.
+    	}
+	</script>
+
+	Formulaire de commentaire :
+
+	Affichez un formulaire de commentaire où les utilisateurs peuvent saisir leur message.
+	Utilisez les informations récupérées de Google Sign-In pour pré-remplir le nom de l'utilisateur, par exemple.
+
+	html
+	Copy code
+	<form action="votre_script_de_traitement.php" method="post">
+    	    <label for="comment">Commentaire :</label>
+    	    <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+    	    <!-- Utilisez des champs cachés pour envoyer les informations de l'utilisateur -->
+    	    <input type="hidden" name="userName" value="nom_utilisateur">
+    	    <input type="hidden" name="userEmail" value="email_utilisateur">
+   	    <input type="submit" value="Soumettre le commentaire">
+	</form>
+
+
+	Traitement côté serveur :
+
+	Créez un script côté serveur (par exemple, en PHP) pour traiter le formulaire de commentaire.
+	Récupérez les données du formulaire et enregistrez-les dans votre base de données.
+	Cela offre une expérience de commentaire relativement simple pour les utilisateurs, en utilisant leur compte Google pour s'authentifier. 
+	N'oubliez pas de mettre en place la gestion des commentaires côté serveur en fonction de vos besoins spécifiques.
+
+	
+
+	Pour le traitement côté serveur, vous aurez besoin d'un script qui récupère les données du formulaire de commentaire et les enregistre dans votre base de données. Voici un exemple simple en PHP, mais assurez-vous d'ajuster cela en fonction de votre configuration et de votre base de données :
+
+	Créez un script PHP pour le traitement (par exemple, commentaire.php) :
+	php
+	Copy code
+	<?php
+	// Connexion à la base de données (ajustez les paramètres selon votre configuration)
+	$servername = "votre_serveur";
+	$username = "votre_nom_utilisateur";
+	$password = "votre_mot_de_passe";
+	$dbname = "votre_base_de_donnees";
+
+	$conn = new mysqli($servername, $username, $password, $dbname);
+
+	// Vérifiez la connexion
+	if ($conn->connect_error) {
+    	die("Échec de la connexion à la base de données : " . $conn->connect_error);
+	}
+
+	// Récupérez les données du formulaire
+	$commentaire = $_POST['comment'];
+	$nom_utilisateur = $_POST['userName'];
+	$email_utilisateur = $_POST['userEmail'];
+
+	// Échappez les données pour éviter les attaques par injection SQL
+	$commentaire = mysqli_real_escape_string($conn, $commentaire);
+	$nom_utilisateur = mysqli_real_escape_string($conn, $nom_utilisateur);
+	$email_utilisateur = mysqli_real_escape_string($conn, $email_utilisateur);
+
+	// Enregistrez les données dans la base de données (ajustez votre requête SQL selon votre structure de base de données)
+	$sql = "INSERT INTO commentaires (nom_utilisateur, email_utilisateur, commentaire) VALUES ('$nom_utilisateur', '$email_utilisateur', '$commentaire')";
+
+	if ($conn->query($sql) === TRUE) {
+	    echo "Le commentaire a été enregistré avec succès.";
+	} else {
+  	  echo "Erreur lors de l'enregistrement du commentaire : " . $conn->error;
+	}
+
+	// Fermez la connexion à la base de données
+	$conn->close();
+	?>
+
+	Ajoutez l'action dans votre formulaire HTML :
+	html
+	Copy code
+	<form action="commentaire.php" method="post">
+	    <!-- ... Autres champs du formulaire ... -->
+	    <input type="submit" value="Soumettre le commentaire">
+	</form>
+
+	Dans ce script, assurez-vous d'ajuster les informations de connexion à la base de données ($servername, $username, $password, $dbname)
+	en fonction de votre configuration. La requête SQL doit également être adaptée à la structure de votre table de commentaires.
+
+	N'oubliez pas de sécuriser votre code contre les attaques par injection SQL et d'effectuer une validation appropriée des données côté serveur.
+
+
+
+
+
+
