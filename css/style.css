@@ -162,14 +162,14 @@ body{
 
 /*************** MEDIAQUERY ***************/
 
-@media (max-width: 1400px) {
+@media (max-width: 768px) {
   header {
     /* background-color: #e68f15; */
   }
  
 }
 
-@media (max-width: 960px) {
+@media (max-width: 480px) {
   header {
     background-image: none;
     background-color: rgb(141, 174, 79);;
@@ -205,11 +205,7 @@ body{
     display: block;
   }
 }
-@media(max-width: 760px){
-  header{
-    display: none;
-  }
-}
+
 
 /*************** END MEDIAQUERY ***************/
 
