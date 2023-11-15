@@ -3,10 +3,14 @@
 /* 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
 
-/* @font-face {
-  font-family: ;
-  src: url();
-} */
+@font-face {
+  /* Donnez un nom à votre police */
+  font-family: 'AcrosstheRoad';
+  /* Spécifiez le chemin vers le fichier de police */
+  src: url('../font/AcrossTheRoad-w1588.ttf') format('truetype'); 
+  /* Autres propriétés facultatives comme font-weight, font-style, etc. */
+}
+
 
 /* 
 Une mise en page flexible doit avoir un élément parent avec la propriété display définie sur flex.
@@ -118,6 +122,9 @@ img{
     width:100%;
 }
 body{
+  /* Utilisez le nom que vous avez donné à votre police */
+    font-family: 'AcrosstheRoad', sans-serif; 
+
     background-color: rgb(87,90,99);
 
 }

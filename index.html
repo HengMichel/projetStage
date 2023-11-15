@@ -15,37 +15,27 @@
             
         </nav>
     </header>
-    <section> 
-        <div class="g-recaptcha" data-sitekey="VOTRE_CLE_RECAPTCHA"></div>
+    <div class="container">
 
-        <form action="commentaire.php" method="post">
-            <label for="comment">Commentaire :</label>
-            <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
-            
-            <!-- Utilisez des champs cachés pour envoyer les informations de l'utilisateur -->
-            <input type="hidden" name="userName" value="nom_utilisateur">
-            <input type="hidden" name="userEmail" value="email_utilisateur">
-            <input type="submit" value="Soumettre le commentaire">
-        </form>
-    </section>
-    <!-- Cependant, si vous ne souhaitez pas utiliser l'API Google Sign-In, il existe une alternative plus simple pour permettre aux utilisateurs de laisser des commentaires avec leur compte Google. Vous pouvez envisager d'utiliser le service Google ReCaptcha pour vérifier les utilisateurs sans avoir besoin de créer un projet dans la console des développeurs Google.
-
-Voici comment vous pourriez procéder :
-
-Google ReCaptcha :
-Allez sur le site de Google ReCaptcha et suivez les instructions pour créer une clé ReCaptcha.
-Intégrez le code ReCaptcha dans votre formulaire de commentaire. -->
-
-
-Traitement Côté Serveur :
-Sur le côté serveur (PHP, par exemple), vérifiez la réponse du ReCaptcha avant de traiter le commentaire.
-Voici un exemple en PHP :
-
-php
-Copy code
-
- 
-Cette approche vous permet d'ajouter une couche de vérification sans avoir à créer un projet dans la console des développeurs Google. Cependant, notez que cela ne fournit pas une authentification complète avec le compte Google de l'utilisateur. Si vous avez besoin d'une intégration plus étroite avec les comptes Google, la création d'un projet dans la console des développeurs Google avec l'API Google Sign-In serait nécessaire.
+        <h1>Laurent</h1>
+        <section> 
+            <div class="g-recaptcha" data-sitekey="VOTRE_CLE_RECAPTCHA"></div>
+    
+            <form action="commentaire.php" method="post">
+                <label for="comment">Commentaire :</label>
+                <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+                
+                <!-- Utilisez des champs cachés pour envoyer les informations de l'utilisateur -->
+                <input type="hidden" name="userName" value="nom_utilisateur">
+                <input type="hidden" name="userEmail" value="email_utilisateur">
+                <input type="submit" value="Soumettre le commentaire">
+            </form>
+        </section>
+        <div class="section2">
+            <img src="photos/patisserie/1699988801375.jpg" alt="">
+        </div>
+        
+    </div>
 
 
 
