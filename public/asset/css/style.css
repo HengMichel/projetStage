@@ -7,7 +7,7 @@
   /* Donnez un nom à votre police */
   font-family: 'AcrosstheRoad';
   /* Spécifiez le chemin vers le fichier de police */
-  src: url('../font/AcrossTheRoad-w1588.ttf') format('truetype'); 
+  src: url('./font/AcrossTheRoad-w1588.ttf') format('truetype'); 
   /* Autres propriétés facultatives comme font-weight, font-style, etc. */
 }
 
@@ -123,8 +123,7 @@ img{
 }
 body{
   /* Utilisez le nom que vous avez donné à votre police */
-    font-family: 'AcrosstheRoad', sans-serif; 
-
+   
     background-color: rgb(87,90,99);
 
 }
@@ -142,9 +141,47 @@ body{
 /*************** HEADER ***************/
 
 /*************** END HEADER ***************/
+.titre{
+  font-size: 110px;
+  font-family: 'AcrosstheRoad', sans-serif; 
+}
+.logo{
+  width: 30%;
+}
 
+.espace{
+  margin-right: 6%;
+}
 /*************** NAV ***************/
-
+#toggleButton {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+}
+.fa-solid {
+  font-size: 30px;
+}
+.myDiv {
+  background-color: white;
+  width: 100%;
+  position: absolute;
+  margin: -20px 0;
+  top: 80px;
+}
+.myDiv > ul {
+  list-style-type: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  background-color: white;
+  padding: 0;
+}
+.myDiv > li {
+  margin-top: 10px;
+}
 /*************** END NAV ***************
 
 /*************** MAIN ***************/
