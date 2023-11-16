@@ -6,7 +6,7 @@
     
       <li><a href="">Nos pâtisseries</a></li>
       
-      <li><a href="">Notre gamme de pain</a></li>
+      <li><a href="http://localhost/projetStage/pain.php">Notre gamme de pain</a></li>
     </ul>
 </div>
 <!-- Boutton hamburger -->

@@ -13,5 +13,6 @@ const carousel = new bootstrap.Carousel(myCarouselElement, {
 })
 
 $("#toggleButton").click(function () {
+  console.log("clic ok");
     $(".myDiv").slideToggle();
   });

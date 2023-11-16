@@ -1,21 +1,21 @@
 <?php
-include_once "../public/header.php";
-include_once "../public/nav.php";
+include_once "inc/header.php";
+require_once "inc/nav.php";
 ?>
 
 <div class="container">
     <h1 class="pain fw-semibold mt-5 text-center">Notre gamme de pain</h1>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./photos/pains/1699988450733.jpg" class="d-block w-100" alt="...">
+            <img src="asset/photos/pains/1699988450733.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="photos/pains/1699988450740.jpg" class="d-block w-100" alt="...">
+            <img src="asset/photos/pains/1699988450740.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="photos/pains/1699988450747.jpg" class="d-block w-100" alt="...">
+            <img src="asset/photos/pains/1699988450747.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -30,5 +30,5 @@ include_once "../public/nav.php";
 
 </div>
 <?php
-include_once "../public/footer.php";
+include_once "inc/footer.php";
 ?>

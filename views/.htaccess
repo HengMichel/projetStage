@@ -1,6 +1,4 @@
 #************************************ Architecture MVC
-
-
 # activer la regle de reecriture d'url
 RewriteEngine On
 
