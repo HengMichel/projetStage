@@ -3,21 +3,23 @@ include_once "inc/header.php";
 include_once "inc/nav.php";
 ?>
 <div class="presentation">
+  <h1 class="titre fw-semibold mt-5">Laurent &nbsp;&nbsp;Dheilly</h1>
   <img class="logo" src="asset/photos/boulanger_de_france.png" alt="">
-  <h1 class="titre fw-semibold mt-5">Laurent<span class="espace"></span>&nbsp;&nbsp;Dheilly</h1>
 </div>
-<div class="presentation1 mt-5">
-  <h1 class="titre fw-semibold">Laurent<span class="espace"></span>&nbsp;&nbsp;Dheilly</h1>
+<div class="presentation1">
+  <h1 class="titre fw-semibold">Laurent &nbsp;&nbsp;Dheilly</h1>
   <img class="logo1" src="asset/photos/boulanger_de_france.png" alt="">
 </div>
+
 <!-- Caroussel mode auto avec inteval de 3 secondes -->
-<!-- <div id="michelCarousel" class="carousel slide" data-bs-ride="carousel"> -->
+<!-- <div id="michelCarousel
+" class="carousel slide mt-3" data-bs-ride="carousel"> -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="asset/photos/cuisine/1699990610383.jpg" class="d-block w-100" alt="..." />
+        <img src="asset/photos/jour.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/1699990610364.jpg" class="d-block w-100" alt="..." />
+        <img src="asset/photos/nuit.jpg" class="d-block w-100" alt="..." />
       </div>
       <div class="carousel-item">
         <img src="asset/photos/cuisine/1699990610348.jpg" class="d-block w-100" alt="..." />
@@ -30,7 +32,7 @@ include_once "inc/nav.php";
 
   
 
-  <div class="card border-dark border-3 mb-3 mt-3" style="max-width: 25rem;">
+  <div class="card border-dark border-3 mb-3 mt-3 container" style="max-width: 25rem;">
     <div class="card-header">
       <h4 class="card-title">Horaire</h4>
     </div>
@@ -41,8 +43,8 @@ include_once "inc/nav.php";
       <p class="card-text mt-3"><span class="mardi">mardi</span> de 7h à <strong>19h45</strong></p>
       <p class="card-text mt-3"><span class="mercredi">mercredi</span> de 7h à <strong>19h45</strong></p>
       <p class="card-text mt-3"><span class="jeudi">jeudi</span> de 7h à <strong>19h45</strong></p>
-      <p class="card-text mt-3"><span class="vendredi">vendredi</span> de 7h à <strong>19h45</strong></p>
-      <p class="card-text mt-3"><span class="samedi">samedi</span> de 7h à <strong>19h00</strong></p>
+      <p class="card-text mt-3"><span class="vendredi">vendredi</span> de 7h à <strong>19h30</strong></p>
+      <p class="card-text mt-3"><span class="samedi">samedi</span> de 9h à <strong>19h00</strong></p>
       <p class="card-text mt-3"><strong>dimanche</strong> <strong>FERME</strong></p>
     </div>
   </div>
@@ -58,8 +60,7 @@ include_once "inc/nav.php";
     </div>
   </div> -->
 
-  <div class="accordion" id="accordionExample">
-
+  <div class="accordion container" style="max-width: 26rem;" id="accordionExample">
     <div class="accordion-item border border-3">
       <h2 class="accordion-header" id="headingOne">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
@@ -101,7 +102,7 @@ include_once "inc/nav.php";
   </div>
 </div>
 
-<div class="card border-dark border-3 mb-3 mt-2" style="max-width: 25rem;">
+<div class="card border-dark border-3 mb-3 mt-2 container" style="max-width: 25rem;">
     <div class="card-header">
       <h4 class="card-title">Nous contacter</h4>
     </div>

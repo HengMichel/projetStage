@@ -145,23 +145,19 @@ body{
   display: none;
 }
 .presentation{
-  justify-content: center;
-  display: flex;
+  text-align: center;
 }
 .titre{
   font-size: 110px;
   font-family: 'AcrosstheRoad', sans-serif; 
 }
 .logo{
-  width: 20%;
-  padding: 25px;
+  width: 25%;
 }
 .logo1{
   display: none;
 }
-.espace{
-  margin-right: 6%;
-}
+
 /*************** NAV ***************/
 /*************** END NAV ***************
 
@@ -193,25 +189,21 @@ body{
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 768px) {
-  header {
-    /* background-color: #e68f15; */
+  .titre {
+    font-size: 90px;
+}
+  .logo {
+    width: 30%;
   }
  
 }
 
 @media (max-width: 480px) {
-  .presentation{
-    display: none;
-  }
-  .presentation1{
-    display: block;
-  }
   .titre{
     font-size: 50px;
   }
   .logo1{
-    width: 100%;
-    padding: 0;
+    width: 20px;
   }
   .logo{
     display: none;
