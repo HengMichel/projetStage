@@ -7,6 +7,9 @@ RewriteCond %{REQUEST_FILENAME}.php -f
 RewriteRule ^([^/]+)/?$ $1.php [L]
 # L = last permet si cela rentre entre compte stop après mais si la règle n'est pas respecté alors continu
 
+# permet de lire les dossiers dans le repertoire public
+# RewriteRule ^controller/ - [L]
+
 # on verifie si la requete correspond a un repertoire
 RewriteCond %{REQUEST_FILENAME} !-d
 
