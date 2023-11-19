@@ -168,6 +168,16 @@ body{
 .fa-brands{
   font-size: 40px;
 }
+.ticketResto{
+  width: 49%;
+  margin-top: 8px;
+}
+.blocM{
+  display: flex;
+}
+.titlePaiement{
+  margin-bottom: 5px;
+}
 /*************** SECTION 1 ***************/
 
 /*************** END SECTION 1 ***************/
@@ -189,11 +199,15 @@ body{
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 768px) {
-  .titre {
-    font-size: 90px;
-}
-  .logo {
-    width: 30%;
+  .accordion-body {
+    display: flex;
+  }
+  .titlePaiement{
+    margin: auto;
+    margin-right: 7%;
+  }
+  .ticketResto{
+    width: 88%;
   }
  
 }
@@ -202,14 +216,11 @@ body{
   .titre{
     font-size: 50px;
   }
-  .logo1{
-    width: 20px;
+  .blocM{
+    display: block;
   }
-  .logo{
-    display: none;
-  }
-  .espace{
-    margin-right: 0%;
+  .ticketResto{
+    width: 64%;
   }
 }
 
