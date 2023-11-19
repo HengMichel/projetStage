@@ -1,5 +1,4 @@
 <div class="btn-group float-end" role="group" aria-label="Button group with nested dropdown">
-  <button type="button" class="btn btn-outline-dark border-3"></button>
   <div class="btn-group" role="group">
     <button id="btnGroupDrop1" type="button" class="btn btn-outline-dark border-3 dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
     <div class="dropdown-menu bg-secondary" aria-labelledby="btnGroupDrop1">

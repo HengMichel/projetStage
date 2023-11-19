@@ -141,9 +141,6 @@ body{
 /*************** HEADER ***************/
 
 /*************** END HEADER ***************/
-.presentation1{
-  display: none;
-}
 .presentation{
   text-align: center;
 }
@@ -157,7 +154,10 @@ body{
 .logo1{
   display: none;
 }
-
+.avis{
+  color: white;
+  text-decoration: none;
+}
 /*************** NAV ***************/
 /*************** END NAV ***************
 
@@ -177,6 +177,24 @@ body{
 }
 .titlePaiement{
   margin-bottom: 5px;
+}
+.lundi{
+  color: #085F4A;
+}
+.mardi{
+  color: #7C2C47;
+}
+.mercredi{
+  color: #D8ED5E;
+}
+.jeudi{
+  color: #6C5047;
+}
+.vendredi{
+  color: #C8C7CB;
+}
+.samedi{
+  color: #e20e23;
 }
 /*************** SECTION 1 ***************/
 
@@ -199,9 +217,6 @@ body{
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 768px) {
-  .accordion-body {
-    display: flex;
-  }
   .titlePaiement{
     margin: auto;
     margin-right: 7%;
@@ -209,7 +224,12 @@ body{
   .ticketResto{
     width: 88%;
   }
- 
+  .fa-star{
+    margin-left: 2%;
+  }
+ .accordion-body>p{
+  display: block;
+ }
 }
 
 @media (max-width: 480px) {
@@ -221,6 +241,9 @@ body{
   }
   .ticketResto{
     width: 64%;
+  }
+  .btn{
+    margin-bottom: 3%;
   }
 }
 
