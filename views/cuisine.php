@@ -4,7 +4,7 @@ require_once "inc/nav.php";
 ?>
 
 <div class="container">
-  <h1 class="pain fw-semibold mt-5 text-center">Notre gamme de pain</h1>
+  <h1 class="pain fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
   <h3 class="baguette fw-semibold mt-5 text-center">nos baguettes</h3>
   <div id="carouselExampleCaptions" class="carousel slide mt-5">
     <div class="carousel-indicators">
@@ -15,7 +15,7 @@ require_once "inc/nav.php";
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="asset/photos/pains/laTradition.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/1699988305081.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg bg-secondary col-3 container">
           <h5>Tradition</h5>
         </div>
@@ -63,7 +63,7 @@ require_once "inc/nav.php";
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="asset/photos/pains/laBouleAlAncienne.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/1699988305099.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg bg-secondary col-3 container">
           <h5>Boule à l'ancienne</h5>
         </div>
