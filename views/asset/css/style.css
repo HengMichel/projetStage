@@ -239,6 +239,9 @@ h5{
  .carousel-caption {
   width: auto;
   }
+  .btn{
+    margin-top: 3%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -253,6 +256,7 @@ h5{
   }
   .btn{
     margin-bottom: 3%;
+    
   }
  
 }

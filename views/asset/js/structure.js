@@ -5,10 +5,6 @@
 //     var userEmail = profile.getEmail();
 // }
 
-// $("#toggleButton").click(function () {
-//   console.log("clic ok");
-//     $(".myDiv").slideToggle();
-//   });
 
 const myCarouselElement = document.querySelector("#michelCarousel")
 

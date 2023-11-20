@@ -7,15 +7,17 @@ include_once "inc/nav.php";
   <img class="logo" src="asset/photos/boulanger_de_france.png" alt="">
 </div>
 <!-- Début Caroussel mode auto -->
-<div class="carousel-inner">
-  <div class="carousel-item active">
-    <img src="asset/photos/jour.jpg" class="d-block w-100" alt="..." />
-  </div>
-  <div class="carousel-item">
-    <img src="asset/photos/nuit.jpg" class="d-block w-100" alt="..." />
-  </div>
-  <div class="carousel-item">
-    <img src="asset/photos/cuisine/1699990610348.jpg" class="d-block w-100" alt="..." />
+<div id="michelCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="asset/photos/facadeJour.jpg" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="asset/photos/facadeNuit.jpg" class="d-block w-100" alt="..." />
+    </div>
+    <div class="carousel-item">
+      <img src="asset/photos/facadeJour.jpg" class="d-block w-100" alt="..." />
+    </div>
   </div>
 </div>
 <!-- Fin Caroussel mode auto -->
@@ -42,17 +44,6 @@ include_once "inc/nav.php";
         <p class="card-text mt-3"><strong>dimanche</strong> <strong>FERME</strong></p>
       </div>
     </div>
-    <!-- <div class="card border-dark border-3 mb-3" style="max-width: 20rem;">
-      <div class="card-header">
-        <h4 class="card-title">Services disponibles</h4>
-      </div>
-      <div class="card-body">
-        <p class="card-text"></p>
-        <p class="card-text"></p>
-        <p class="card-text">Petit déjeuner</p>
-        <p class="card-text"></p>
-      </div>
-    </div> -->
   
     <div class="accordion container mt-3" style="max-width: 26rem;" id="accordionExample">
       <div class="accordion-item border border-3 bg-light">
@@ -107,7 +98,7 @@ include_once "inc/nav.php";
           <p class="card-text">Téléphone: 01 42 33 45 14</p>      
         </div>
     </div>
-    <!-- <button type="button" class="btn btn-light border-3 border-secondary-subtle"><a class="avis fw-semibold" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsyTYzi88pMmC0UjWoMDFPNTNLNUwzMDY3NrMwNLYyqEhJS7ZMtTQwM0hLtTQ1TE7xEk7KL81JzEtPLcpMVUjJSM3MyakEAPowFkU&q=boulangerie+dheilly&oq=boulan&gs_lcrp=EgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyEwgCEC4YgwEYxwEYsQMY0QMYgAQyEAgDEAAYgwEYsQMYgAQYigUyDQgEEAAYgwEYsQMYgAQyFggFEC4YgwEYrwEYxwEYsQMYgAQYjgUyFggGEC4YgwEYrwEYxwEYsQMYgAQYigUyBggHEAUYQNIBCDQ0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47e66e1f03736813:0xdfc9e9060fe951cd,1"><i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #fafcff;"></i> Votre avis nous intéresse </a><div class="star"><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i></div></button> -->
+    <button type="button" class="btn btn-light border-3 border-secondary-subtle"><a class="avis fw-semibold" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsyTYzi88pMmC0UjWoMDFPNTNLNUwzMDY3NrMwNLYyqEhJS7ZMtTQwM0hLtTQ1TE7xEk7KL81JzEtPLcpMVUjJSM3MyakEAPowFkU&q=boulangerie+dheilly&oq=boulan&gs_lcrp=EgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyEwgCEC4YgwEYxwEYsQMY0QMYgAQyEAgDEAAYgwEYsQMYgAQYigUyDQgEEAAYgwEYsQMYgAQyFggFEC4YgwEYrwEYxwEYsQMYgAQYjgUyFggGEC4YgwEYrwEYxwEYsQMYgAQYigUyBggHEAUYQNIBCDQ0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47e66e1f03736813:0xdfc9e9060fe951cd,1"><i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #fafcff;"></i> Votre avis nous intéresse </a><div class="star"><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i></div></button>
   </div>  
 </div>
 

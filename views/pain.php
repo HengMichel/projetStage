@@ -29,13 +29,13 @@ require_once "inc/nav.php";
       <div class="carousel-item">
         <img src="asset/photos/pains/banepi.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Banépi</h5>
+          <h5>Marysette</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="asset/photos/pains/classique.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Classique</h5>
+          <h5>Baguette</h5>
         </div>
       </div>
     </div>
@@ -60,6 +60,7 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="6" aria-label="Slide 7"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="7" aria-label="Slide 8"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="9" aria-label="Slide 10"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -71,7 +72,7 @@ require_once "inc/nav.php";
       <div class="carousel-item">
         <img src="asset/photos/pains/aLancienne.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>à l'ancienne</h5>
+          <h5>Pain de campagne</h5>
         </div>
       </div>  
       <div class="carousel-item">
@@ -101,7 +102,7 @@ require_once "inc/nav.php";
       <div class="carousel-item">
         <img src="asset/photos/pains/multigraine.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Multi-graine</h5>
+          <h5>Bûcheron</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -115,6 +116,12 @@ require_once "inc/nav.php";
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Boule aux noix</h5>
         </div>
+      </div>
+      <div class="carousel-item">
+          <img src="asset/photos/pains/painDemie.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>Pain de mie</h5>
+          </div>
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
