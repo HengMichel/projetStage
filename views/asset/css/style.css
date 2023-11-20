@@ -197,6 +197,9 @@ body{
   color: #e20e23;
 }
 /*************** SECTION 1 ***************/
+h5{
+  margin-top: 10px; 
+}
 
 /*************** END SECTION 1 ***************/
 
@@ -229,7 +232,13 @@ body{
   }
  .accordion-body>p{
   display: block;
- }
+  }
+ .beignet{
+  width: min-content;
+  }
+ .carousel-caption {
+  width: auto;
+  }
 }
 
 @media (max-width: 480px) {
@@ -245,6 +254,7 @@ body{
   .btn{
     margin-bottom: 3%;
   }
+ 
 }
 
 
