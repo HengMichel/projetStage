@@ -98,21 +98,20 @@ include_once "inc/nav.php";
           <p class="card-text">Téléphone: 01 42 33 45 14</p>      
         </div>
     </div>
-    <button type="button" class="btn btn-light border-3 border-secondary-subtle"><a class="avis fw-semibold" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsyTYzi88pMmC0UjWoMDFPNTNLNUwzMDY3NrMwNLYyqEhJS7ZMtTQwM0hLtTQ1TE7xEk7KL81JzEtPLcpMVUjJSM3MyakEAPowFkU&q=boulangerie+dheilly&oq=boulan&gs_lcrp=EgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyEwgCEC4YgwEYxwEYsQMY0QMYgAQyEAgDEAAYgwEYsQMYgAQYigUyDQgEEAAYgwEYsQMYgAQyFggFEC4YgwEYrwEYxwEYsQMYgAQYjgUyFggGEC4YgwEYrwEYxwEYsQMYgAQYigUyBggHEAUYQNIBCDQ0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47e66e1f03736813:0xdfc9e9060fe951cd,1"><i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #fafcff;"></i> Votre avis nous intéresse </a><div class="star"><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i></div></button>
+    <!-- <button type="button" class="btn btn-light border-3 border-secondary-subtle"><a class="avis fw-semibold" href="https://www.google.com/search?gs_ssp=eJzj4tZP1zcsyTYzi88pMmC0UjWoMDFPNTNLNUwzMDY3NrMwNLYyqEhJS7ZMtTQwM0hLtTQ1TE7xEk7KL81JzEtPLcpMVUjJSM3MyakEAPowFkU&q=boulangerie+dheilly&oq=boulan&gs_lcrp=EgZjaHJvbWUqFQgBEC4YJxivARjHARiABBiKBRiOBTIGCAAQRRg5MhUIARAuGCcYrwEYxwEYgAQYigUYjgUyEwgCEC4YgwEYxwEYsQMY0QMYgAQyEAgDEAAYgwEYsQMYgAQYigUyDQgEEAAYgwEYsQMYgAQyFggFEC4YgwEYrwEYxwEYsQMYgAQYjgUyFggGEC4YgwEYrwEYxwEYsQMYgAQYigUyBggHEAUYQNIBCDQ0MTdqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#lrd=0x47e66e1f03736813:0xdfc9e9060fe951cd,1"><i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #fafcff;"></i> Votre avis nous intéresse </a><div class="star"><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i><i class="fa-solid fa-star fa-beat-fade" style="color: #f4ce10;"></i></div></button> -->
   </div>  
 </div>
 
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.831354254729!2d2.342779315466992!3d48.85981831741987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f03736813%3A0xdfc9e9060fe951cd!2sBoulangerie-P%C3%A2tisserie%20Laurent%20Dheilly!5e0!3m2!1sfr!2sfr!4v1700219544751!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5249.831354254729!2d2.342779315466992!3d48.85981831741987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1f03736813%3A0xdfc9e9060fe951cd!2sBoulangerie-P%C3%A2tisserie%20Laurent%20Dheilly!5e0!3m2!1sfr!2sfr!4v1700219544751!5m2!1sfr!2sfr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-  <div class="card border-dark border-3 mb-3 mt-2" style="max-width: 90rem;">
-    <div class="card-header">Actualité</div>
-    <div class="card-body">
-      <h4 class="card-title">L'avis du Petit Futé sur LAURENT DHEILLY</h4>
-      <p class="card-text"> 
-
+<div class="card border-dark border-3 mb-3 mt-2" style="max-width: 90rem;">
+  <div class="card-header">Actualité</div>
+  <div class="card-body">
+    <h4 class="card-title">L'avis du Petit Futé sur LAURENT DHEILLY</h4>
+    <p class="card-text"> 
 Une belle boulangerie datant de 1900 où Laurent Dheilly exerce en maître de la baguette de tradition, croustillante juste ce qu’il faut avec une belle mie, bien serrée. Dans ce quartier qui bouge toute la journée et à la demande de ses clients, il a mis l’accent sur la pâtisserie et la petite restauration (belle variété de quiches, pizzas, friands, croque-monsieur, saucisse briochée et toute une gamme de sandwiches). D’excellents macarons et un superbe éclair à la pistache réjouissent les gourmands et les gourmandes.</p>
-    </div>
   </div>
+</div>
   
 
 

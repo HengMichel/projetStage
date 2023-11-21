@@ -208,7 +208,10 @@ h5{
 /*************** END SECTION 2 ***************/
 
 /*************** SECTION 3 ***************/
-
+.carousel-inner{
+  /* margin: auto;
+  width: 65%; */
+}
 /*************** END SECTION 3 ***************/
 
 /*************** END MAIN ***************/
@@ -242,6 +245,10 @@ h5{
   .btn{
     margin-top: 3%;
   }
+  .carousel-inner{
+    margin: auto;
+    width: 68%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -256,9 +263,10 @@ h5{
   }
   .btn{
     margin-bottom: 3%;
-    
   }
- 
+  .carousel-inner{
+    width: 100%;
+  }
 }
 
 
