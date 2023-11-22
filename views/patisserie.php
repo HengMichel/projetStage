@@ -6,7 +6,7 @@ require_once "inc/nav.php";
 <h1 class="patisserie fw-semibold mt-5 text-center">Notre gamme de pâtisserie</h1>
 <div class="container3 column-gap-md-2">
   <div class="section1 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/carachoc.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Carachoc</p>
@@ -23,7 +23,7 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Carachoc</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/carachoc4.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -33,19 +33,19 @@ require_once "inc/nav.php";
   </div>
 
   <div class="section2 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/carachoc5.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Carachoc</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/eclairCitronPistacheChocolatCafe.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">éclair Citron Pistache Chocolat Café</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/eclairPistacheCitronChocolatCafe.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">éclair Pistache Citron Chocolat Café</p>
@@ -56,28 +56,28 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">éclair Pistache Citron Chocolat Café</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section3 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/flanChocolat.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">flan Chocolat</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/flanChocolat2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">flanChocolat</p>
+        <p class="card-text text-center">flan Chocolat</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/flanNoixDeCoco.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">flan Noix de Coco</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/flanNoixDeCoco2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -153,7 +153,7 @@ require_once "inc/nav.php";
         <p class="card-text text-center">macaron</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/macaronPistacheFramboise.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">macaron Pistache Framboise</p>
@@ -164,28 +164,28 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">macaronPistacheFramboise</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section7 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/macaronPistacheFramboise3.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">macaron Pistache Framboise</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/macaronPistacheFramboise4.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">macaron Pistache Framboise</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/macaronPistacheFramboise5.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">macaron Pistache Framboise</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/meringueChocolat.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -195,19 +195,19 @@ require_once "inc/nav.php";
   </div>
 
   <div class="section9 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/milleFeuille.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mille Feuille</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/milleFeuille2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mille Feuille</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/milleFeuille3.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mille Feuille</p>
@@ -218,65 +218,65 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">milleFeuille</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section10 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/milleFeuille5.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mille Feuille</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mousse Passion Framboise</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise6P.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mousse Passion Framboise 6P</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise6P2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">mousse Passion Framboise 6P</p>
+        <p class="card-text text-center">mousse Passion Framboise</p>
       </div>
     </div>
   </div>
 
   <div class="section11 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise6P3.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mousse Passion Framboise 6P</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/opera.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Opéra</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/opera2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Opéra</p>
       </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    </div> -->
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/parisBrest.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Paris Brest</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section12 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/parisBrest2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Paris Brest</p>
@@ -287,7 +287,7 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Paris Brest</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/parisBrest4.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -303,7 +303,7 @@ require_once "inc/nav.php";
   </div>
 
   <div class="section13 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteAbricotPistache2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Abricot Pistache</p>
@@ -314,7 +314,7 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Abricot Pistache</p>
       </div>
-    </div>
+    </div> -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteCitron.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -331,33 +331,34 @@ require_once "inc/nav.php";
 
   <div class="section14 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteFramboise2.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">tarte Framboise</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteFramboise3.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">tarte Framboise</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteFramboise4.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">tarte Framboise</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteFramboise6P.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Framboise</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/deliceChocolat6P.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+          <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
+        </div>
+      </div>
+        <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/deliceChocolat6P2.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+          <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
+        </div>
+      </div>
+        <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/entremets6P.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+          <p class="card-text text-center">nos entremets </p class="card-text text-center">
+        </div>
+      </div>
+    
   </div>
 
   <div class="section15 border border-2 m-1 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteFramboise6P2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Framboise</p>
@@ -380,7 +381,7 @@ require_once "inc/nav.php";
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Grand Mère</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section16 d-flex">
@@ -409,6 +410,73 @@ require_once "inc/nav.php";
       </div>
     </div>
   </div>
+
+  <h3 class="baguette fw-semibold mt-5 text-center">nos produits secs</h3>
+  <div class="section16 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <img src="asset/photos/patisserie/sabler&biscuit/cookie.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Cookie</h5>
+        </div>
+      </div>
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/cookie2.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Cookie</h5>
+        </div>
+      </div>  
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/cookie3.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Cookie</h5>
+        </div>
+      </div>
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/palmier.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Palmier</h5>
+        </div>
+      </div>
+  </div>
+
+  <div class="section1è d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <img src="asset/photos/patisserie/sabler&biscuit/palmier2.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Cookie</h5>
+        </div>
+      </div>
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierNatureFruitsRougesPistacheChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>financierNatureFruitsRougesPistacheChocolat</h5>
+        </div>
+      </div>  
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/cookie3.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Cookie</h5>
+        </div>
+      </div>
+      <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+        <img src="asset/photos/patisserie/sabler&biscuit/palmier.jpg" class="d-block w-100" alt="...">
+        <div class="card-body bg-secondary">
+          <h5>Palmier</h5>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
 
   <h3 class="baguette fw-semibold mt-5 text-center">pour tous vos événements & entreprises</h3>
   <div class="section16 d-flex">
@@ -992,7 +1060,7 @@ require_once "inc/nav.php";
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <h3 class="pains fw-semibold mt-5 text-center">nos sablé & biscuit</h3>
+  <h3 class="pains fw-semibold mt-5 text-center">nos produits secs</h3>
   <div id="carouselExampleCaptions2" class="carousel slide mt-5">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

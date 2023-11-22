@@ -318,36 +318,36 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/traiteur/leManon.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/traiteur/leProvencal.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">le Manon</p>
+        <p class="card-text text-center">le provencal</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/traiteur" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">friand Chair</p>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <div class="section14 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/traiteur/leManon&friandChair.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/traiteur/leProvencal&friandChair.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">le Manon & friand Chair</p>
+        <p class="card-text text-center">le Provencal & friand Chair</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/traiteur/leProvencal.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/traiteur/leManon.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">le Provencal</p>
+        <p class="card-text text-center">le Manon chèvre miel</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/traiteur/Leprovencal2.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/traiteur/leManon2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">le Provencal</p>
+        <p class="card-text text-center">le Manon chèvre miel</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
