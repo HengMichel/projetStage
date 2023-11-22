@@ -200,9 +200,16 @@ body{
 h5{
   margin-top: 10px; 
 }
-
+.container3>img{
+  display: flex;
+}
+.card-text{
+  font-size: 25px;
+}
 /*************** END SECTION 1 ***************/
-
+.container2{
+  display: none;
+}
 /*************** SECTION 2 ***************/
 
 /*************** END SECTION 2 ***************/
@@ -223,6 +230,10 @@ h5{
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 768px) {
+  .carousel-slide{
+    margin: auto;
+    width: 68%;
+  }
   .titlePaiement{
     margin: auto;
     margin-right: 7%;
@@ -247,7 +258,13 @@ h5{
   }
   .carousel-inner{
     margin: auto;
-    width: 68%;
+    width: 70%;
+  }
+  .container3{
+    display: none;
+  }
+  .container2{
+    display: contents;
   }
 }
 
@@ -266,6 +283,12 @@ h5{
   }
   .carousel-inner{
     width: 100%;
+  }
+  .container3{
+    display: none;
+  }
+  .container2{
+    display: contents;
   }
 }
 
