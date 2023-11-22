@@ -85,9 +85,9 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/cruditesChevre6.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/ementalBeurre.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Crudités Chèvre</h5>
+          <h5>Emental Beurre</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -354,54 +354,54 @@ require_once "inc/nav.php";
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="asset/photos/cuisine/traiteur/croqueMonsieur.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/traiteur/croqueMonsieur3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Croque Monsieur</h5>
+          <h5>Croque Monsieur Jambon</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/croqueMonsieur2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Croque Monsieur</h5>
+          <h5>Croque Monsieur Jambon</h5>
         </div>
       </div>  
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/croqueMonsieur3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Croque Monsieur</h5>
+          <h5>Croque Monsieur Jambon</h5>
         </div>
-      </div>
-      <div class="carousel-item">
+      </div> -->
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/croqueMonsieurPoulet.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Croque Monsieur Poulet</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/croqueMonsieurPoulet2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Croque Monsieur Poulet</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/croqueMonsieurPoulet3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Croque Monsieur Poulet</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/leManon&friandChair.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>le Manon & friand Chair</h5>
+          <h5>le Provencal & friand Chair</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/leManon.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Le Manon</h5>
+          <h5>Le Manon chèvre miel</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/leManon2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Le Manon</h5>
@@ -412,19 +412,19 @@ require_once "inc/nav.php";
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Le Manon</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/leManon4.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Le Manon</h5>
+          <h5>Le Provencal</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/pizzaJambonChampignon.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Pizza Jambon Champignon</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/pizzaJambonChampignon2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -434,25 +434,25 @@ require_once "inc/nav.php";
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/provencal.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Provencal</h5>
+          <h5>Le Manon chèvre miel</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/quicheChervreEpinard.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Quiche Chervre Epinard</h5>
+          <h5>Quiche Chèvre Epinard</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/quicheChervreEpinard2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Quiche Chervre Epinard</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/quicheChervreEpinard3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Quiche Chervre Epinard</h5>
+          <h5>Quiche Thon Tomate</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -461,12 +461,12 @@ require_once "inc/nav.php";
           <h5>Quiche Lorraine</h5>
         </div>
       </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/quicheLorraine2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Quiche Lorraine</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/quichePoireaux.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -532,19 +532,15 @@ require_once "inc/nav.php";
       <div class="carousel-item active">
         <img src="asset/photos/cuisine/self/self.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+        <h5>le self</h5>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="asset/photos/cuisine/self/self2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-        </div>
-      </div>
-      <div class="carousel-item">
+      <!-- <div class="carousel-item">
         <img src="asset/photos/cuisine/self/saladeDeFruits.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
         <h5>salade de Fruits</h5>
         </div>
-      </div>
+      </div> -->
       <div class="carousel-item">
         <img src="asset/photos/cuisine/self/saladeDeFruits2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -560,19 +556,19 @@ require_once "inc/nav.php";
       <div class="carousel-item">
         <img src="asset/photos/cuisine/self/panacotaFruitsRouges.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-        <h5>Panacota Fruits Rouges</h5>
+        <h5>Pannacotta Fruits Rouges</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="asset/photos/cuisine/self/pavlova.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-        <h5>Pavlova</h5>
+        <h5>Fromage blanc</h5>
         </div>
       </div>
       <div class="carousel-item">
         <img src="asset/photos/cuisine/self/pavlova2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-        <h5>Pavlova</h5>
+        <h5>Fromage blanc</h5>
         </div>
       </div>
       <div class="carousel-item">

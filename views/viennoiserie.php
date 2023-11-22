@@ -58,7 +58,7 @@ require_once "inc/nav.php";
           </div>
         </div>
         <div class="carousel-item">
-          <img src="asset/photos/viennoiserie/croissantBeurre1.jpg" class="d-block w-100" alt="...">
+          <img src="asset/photos/viennoiserie/croissantBeurre3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Croissant au beurre</h5>
           </div>
@@ -69,8 +69,20 @@ require_once "inc/nav.php";
             <h5>Croissant au beurre</h5>
           </div>
         </div>
+        <!-- <div class="carousel-item">
+          <img src="asset/photos/viennoiserie/croissantBeurre2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>Croissant au beurre</h5>
+          </div>
+        </div>
         <div class="carousel-item">
-          <img src="asset/photos/viennoiserie/painChoco1.jpg" class="d-block w-100" alt="...">
+          <img src="asset/photos/viennoiserie/croissantBeurre3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>Croissant au beurre</h5>
+          </div>
+        </div> -->
+        <div class="carousel-item">
+          <img src="asset/photos/viennoiserie/painChocolat.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Pain au chocolat</h5>
           </div>
@@ -84,13 +96,19 @@ require_once "inc/nav.php";
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/croissantNature.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>Croissant nature</h5>
+            <h5>Croissant ordinaire</h5>
           </div>
         </div>  
 
 
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/chaussonPomme.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>Chausson aux pommes</h5>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="asset/photos/viennoiserie/chaussonPomme2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Chausson aux pommes</h5>
           </div>
@@ -119,31 +137,40 @@ require_once "inc/nav.php";
             <h5>Escargot pistache chocolat</h5>
           </div>
         </div>
-        <div class="carousel-item">
+
+                        <!------------ a conserve en attente de photo -->
+
+        <!-- <div class="carousel-item">
           <img src="asset/photos/viennoiserie/briocheAuSucre.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Brioche au sucre</h5>
           </div>
-        </div>
+        </div> -->
+
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/viennoisChocolat.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Viennois chocolat</h5>
           </div>
         </div>
-        <div class="carousel-item">
+
+                <!------------ a conserve en attente de photo -->
+
+        <!-- <div class="carousel-item">
           <img src="asset/photos/viennoiserie/chouquette.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Chouquette</h5>
           </div>
-        </div>
+        </div> -->
+
+        <!---------------------- a conserve en attente de photo -->
         
-        <div class="carousel-item">
+        <!-- <div class="carousel-item">
           <img src="asset/photos/viennoiserie/beignetPommeNatureChocolatCreme.jpg" class="d-block w-100" alt="...">
           <div class="beignet carousel-caption d-md-block form-select-lg sticky-top col-4 container">
             <h5>Beignet crême/pomme/chocolat</h5>
           </div>
-        </div>
+        </div> -->
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/painAuLait.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -171,7 +198,7 @@ require_once "inc/nav.php";
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/viennoiseChocolatNature.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>Viennoise nature et chocolat</h5>
+            <h5>Viennoise nature ou chocolat</h5>
           </div>
         </div>
     

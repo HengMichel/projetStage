@@ -10,14 +10,14 @@ include_once "inc/nav.php";
 <div id="michelCarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="asset/photos/facadeJour.jpg" class="d-block w-100" alt="..." />
+      <img src="asset/photos/newNight.jpg" class="d-block w-100" alt="..." />
     </div>
     <div class="carousel-item">
-      <img src="asset/photos/facadeNuit.jpg" class="d-block w-100" alt="..." />
+      <img src="asset/photos/newDay.jpg" class="d-block w-100" alt="..." />
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="asset/photos/facadeJour.jpg" class="d-block w-100" alt="..." />
-    </div>
+    </div> -->
   </div>
 </div>
 <!-- Fin Caroussel mode auto -->
