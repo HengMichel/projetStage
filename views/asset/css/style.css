@@ -230,10 +230,6 @@ h5{
 /*************** MEDIAQUERY ***************/
 
 @media (max-width: 768px) {
-  .carousel-slide{
-    margin: auto;
-    width: 68%;
-  }
   .titlePaiement{
     margin: auto;
     margin-right: 7%;
@@ -247,11 +243,9 @@ h5{
  .accordion-body>p{
   display: block;
   }
- .beignet{
-  width: min-content;
-  }
+
  .carousel-caption {
-  width: auto;
+  width: max-content;
   }
   .btn{
     margin-top: 3%;
