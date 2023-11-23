@@ -157,6 +157,7 @@ body{
 .avis{
   color: white;
   text-decoration: none;
+  font-size: 26px;
 }
 /*************** NAV ***************/
 /*************** END NAV ***************
@@ -204,7 +205,10 @@ h5{
   display: flex;
 }
 .card-text{
-  font-size: 25px;
+  font-size: 20px;
+}
+.btn{
+  margin-top: 9%;
 }
 /*************** END SECTION 1 ***************/
 .container2{
@@ -248,17 +252,20 @@ h5{
   width: max-content;
   }
   .btn{
-    margin-top: 3%;
+    margin-top: 8%;
   }
-  .carousel-inner{
+  .carousel-inner {
     margin: auto;
-    width: 70%;
-  }
+    width: 87%;
+}
   .container3{
     display: none;
   }
   .container2{
     display: contents;
+  }
+  .logo{
+    width: 45%;
   }
 }
 
@@ -274,6 +281,7 @@ h5{
   }
   .btn{
     margin-bottom: 3%;
+    margin-top: auto;
   }
   .carousel-inner{
     width: 100%;
@@ -283,6 +291,9 @@ h5{
   }
   .container2{
     display: contents;
+  }
+  .logo{
+    width: 40%;
   }
 }
 
