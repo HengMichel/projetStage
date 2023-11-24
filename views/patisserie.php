@@ -2,14 +2,26 @@
 include_once "inc/header.php";
 require_once "inc/nav.php";
 ?>
-
-<div class="container3 column-gap-md-2">
+<!--------------------------- format PC ----------------------->
+<div class="container2 column-gap-md-2">
   <h1 class="patisserie fw-semibold mt-5 text-center">Notre gamme de pâtisserie</h1>
 
   <div class="section1 d-flex">
 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/carachoc.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Carachoc</p>
+      </div>
+    </div>
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/carachoc2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Carachoc</p>
+      </div>
+    </div> -->
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/carachoc3.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Carachoc</p>
       </div>
@@ -26,15 +38,16 @@ require_once "inc/nav.php";
         <p class="card-text text-center">flan Chocolat</p>
       </div>
     </div>
+  </div>
+
+  <div class="section2 d-flex">
+    
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/flanNoixDeCoco.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">flan Noix de Coco</p>
       </div>
     </div>  
-  </div>
-
-  <div class="section2 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/macaronPistacheFramboise.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -53,15 +66,16 @@ require_once "inc/nav.php";
         <p class="card-text text-center">mille Feuille</p>
       </div>
     </div>
+  </div>
+
+  <div class="section3 d-flex">
+   
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mousse Passion Framboise</p>
       </div>
     </div>
-  </div>
-
-  <div class="section3 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/moussePassionFramboise2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -75,12 +89,6 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/parisBrest.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">Paris Brest</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteAbricotPistache.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Abricot Pistache</p>
@@ -90,13 +98,34 @@ require_once "inc/nav.php";
   </div>
 
   <div class="section4 border-2 m-1 d-flex">
-
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/parisBrest.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Paris Brest</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/parisBrest2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Paris Brest</p>
+      </div>
+    </div>
+    
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteCitron.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Citron</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteNormande.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Normande</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section5 d-flex"> 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/tarteFramboise.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -110,16 +139,21 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/deliceChocolat6P.jpg" class="d-block w-100" alt="...">
+      <img src="asset/photos/patisserie/deliceChocolat.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
       </div>
     </div>
-
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/deliceChocolat2.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
+      </div>
+    </div>
+   
+   
   </div>
-
-  <div class="section5 d-flex"> 
-
+  <div class="section6 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/entremets6P.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
@@ -127,15 +161,15 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteGrandMere4.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/tarteGrandMere2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Grand Mère</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteNormande.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/cremebrulee.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">tarte Normande</p>
+        <p class="card-text text-center">crême brulée</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -149,7 +183,7 @@ require_once "inc/nav.php";
  
 
   <h3 class="produitsSecs fw-semibold mt-5 text-center">nos produits secs</h3>
-  <div class="section8 d-flex">
+  <div class="section7 d-flex">
 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/cookie.jpg" class="d-block w-100" alt="...">
@@ -169,6 +203,7 @@ require_once "inc/nav.php";
         <h5>Palmier</h5>
       </div>
     </div> 
+    <!-- il est préférable d'avoir seulement 2 variétés car le titre est trop long -->
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/financierNatureFruitsRougesPistacheChocolat.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
@@ -178,12 +213,12 @@ require_once "inc/nav.php";
    
   </div>
 
-  <div class="section9 d-flex">
+  <div class="section8 d-flex">
     
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/sabler&biscuit/macaron.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">macaron</p>
+        <p class="card-text text-center">Macaron Chocolat</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -195,7 +230,7 @@ require_once "inc/nav.php";
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/paveCoco&Macaron.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">pavé Noix de Coco & Macaron</p>
+        <p class="card-text text-center">pavé Noix de Coco & Macaron Chocolat</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -206,7 +241,7 @@ require_once "inc/nav.php";
     </div>
   </div>
 
-  <div class="section10 d-flex">
+  <div class="section9 d-flex">
   
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat2.jpg" class="card-img-top" alt="...">
@@ -255,7 +290,312 @@ require_once "inc/nav.php";
 
 </div>
 
-<div class="container2">
+<!------------------------ format tablette ----------------------->
+<div class="container3 column-gap-md-2">
+  <h1 class="patisserie2 fw-semibold mt-5 text-center">Notre gamme de pâtisserie</h1>
+
+  <div class="section1 d-flex">
+
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/carachoc.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Carachoc</p>
+      </div>
+    </div>
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/carachoc2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Carachoc</p>
+      </div>
+    </div> -->
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/carachoc3.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Carachoc</p>
+      </div>
+    </div>
+   
+  </div>
+
+  <div class="section2 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/eclairCitronPistacheChocolatCafe.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">éclair Citron Pistache Chocolat Café</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/flanChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">flan Chocolat</p>
+      </div>
+    </div>
+   
+  </div>
+
+  <div class="section3 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/flanNoixDeCoco.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">flan Noix de Coco</p>
+      </div>
+    </div>  
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/macaronPistacheFramboise.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">macaron Pistache Framboise</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section4 border-2 m-1 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/meringueChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">meringue Chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/milleFeuille.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">mille Feuille</p>
+      </div>
+    </div>
+  
+  </div>
+
+  <div class="section5 d-flex"> 
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/moussePassionFramboise.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">mousse Passion Framboise</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/moussePassionFramboise2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">mousse Passion Framboise</p>
+      </div>
+    </div>
+  </div>
+  <div class="section6 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/opera.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Opéra</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteAbricotPistache.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Abricot Pistache</p>
+      </div>
+    </div>
+   
+  </div>
+
+  <div class="section7 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/parisBrest.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Paris Brest</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/parisBrest2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Paris Brest</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="section8 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteCitron.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Citron</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteNormande.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Normande</p>
+      </div>
+    </div>
+  </div>
+  <div class="section9 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteFramboise.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Framboise</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteFramboise6P.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Framboise</p>
+      </div>
+    </div>
+  </div>
+  <div class="section10 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/deliceChocolat.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/deliceChocolat2.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">delice Chocolat </p class="card-text text-center">
+      </div>
+    </div>
+  </div>
+  <div class="section11 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/entremets6P.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">nos entremets </p class="card-text text-center">
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/tarteGrandMere2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tarte Grand Mère</p>
+      </div>
+    </div>
+  </div>
+  <div class="section12 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/cremebrulee.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">crême brulée</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/fromageBlanc.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">fromage Blanc</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="produitsSecs fw-semibold mt-5 text-center">nos produits secs</h3>
+  <div class="section13 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/cookie.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <h5>Cookie</h5>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/cookie2.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <h5>Cookie</h5>
+      </div>
+    </div>  
+  </div>
+  <div class="section14 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/palmier.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <h5>Palmier</h5>
+      </div>
+    </div> 
+    <!-- il est préférable d'avoir seulement 2 variétés car le titre est trop long -->
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierNatureFruitsRougesPistacheChocolat.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <h5>financier Nature ou FruitsRouges ou Pistache ou Chocolat</h5>
+      </div>
+    </div>  
+  </div>
+  
+  <div class="section15 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Macaron Chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/paveNoixDeCoco.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pavé Noix de Coco</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="section16 d-flex">
+
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/paveCoco&Macaron.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pavé Noix de Coco & Macaron Chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">sablé Chocolat</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section17 d-flex">
+  
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">sablé Chocolat</p>
+      </div>
+    </div>
+    
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/fondantAuChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">fondant au Chocolat</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section18 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">nos boîtes de macarons</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">nos boîtes de macarons</p>
+      </div>
+    </div>
+  </div>
+      
+  <h3 class="evenements fw-semibold mt-5 text-center">pour tous vos événements & entreprises</h3>
+  <div class="section19 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/evenement/petitFourSucree.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">petit Four Sucrée</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/evenement/petitFourSucree2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">petit Four Sucrée</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!------------------------------ format smartphone --------------->
+<div class="container4">
   <h1 class="patisserie2 fw-semibold mt-5 text-center">Notre gamme de pâtisserie</h1>
   <div id="carouselExampleCaptions" class="carousel slide mt-5">
 
@@ -291,58 +631,23 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="28" aria-label="Slide 29"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="29" aria-label="Slide 30"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="30" aria-label="Slide 31"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="31" aria-label="Slide 32"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="32" aria-label="Slide 33"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="33" aria-label="Slide 34"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="34" aria-label="Slide 35"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="35" aria-label="Slide 36"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="36" aria-label="Slide 37"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="37" aria-label="Slide 38"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="38" aria-label="Slide 39"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="39" aria-label="Slide 40"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="40" aria-label="Slide 41"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="41" aria-label="Slide 42"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="42" aria-label="Slide 43"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="43" aria-label="Slide 44"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="44" aria-label="Slide 45"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="45" aria-label="Slide 46"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="46" aria-label="Slide 47"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="47" aria-label="Slide 48"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="48" aria-label="Slide 49"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="49" aria-label="Slide 50"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="50" aria-label="Slide 51"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="51" aria-label="Slide 52"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="52" aria-label="Slide 53"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="53" aria-label="Slide 54"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="54" aria-label="Slide 55"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="55" aria-label="Slide 56"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="56" aria-label="Slide 57"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="57" aria-label="Slide 58"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="58" aria-label="Slide 59"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="59" aria-label="Slide 60"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="60" aria-label="Slide 61"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="61" aria-label="Slide 62"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="62" aria-label="Slide 63"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="63" aria-label="Slide 64"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="64" aria-label="Slide 65"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="65" aria-label="Slide 66"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="66" aria-label="Slide 67"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="67" aria-label="Slide 68"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="68" aria-label="Slide 69"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="69" aria-label="Slide 70"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="70" aria-label="Slide 71"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="71" aria-label="Slide 72"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="72" aria-label="Slide 73"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="73" aria-label="Slide 74"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="74" aria-label="Slide 75"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="75" aria-label="Slide 76"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="76" aria-label="Slide 77"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="77" aria-label="Slide 78"></button>
     </div>
     
     <div class="carousel-inner">  
       <div class="carousel-item active">
         <img src="asset/photos/patisserie/carachoc.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Carachoc</h5>
+        </div>
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="asset/photos/patisserie/carachoc2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Carachoc</h5>
+        </div>
+      </div> -->
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/carachoc3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Carachoc</h5>
         </div>
@@ -405,21 +710,34 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/parisBrest.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Paris Brest</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
         <img src="asset/photos/patisserie/tarteAbricotPistache.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>tarte Abricot Pistache</h5>
         </div>
       </div>
       <div class="carousel-item">
+        <img src="asset/photos/patisserie/parisBrest.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Paris Brest</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/parisBrest2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Paris Brest</h5>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
         <img src="asset/photos/patisserie/tarteCitron.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>tarte Citron</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/tarteNormande.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>tarte Normande</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -435,7 +753,13 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/deliceChocolat6P.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/deliceChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>delice Chocolat</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/deliceChocolat2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>delice Chocolat</h5>
         </div>
@@ -447,17 +771,18 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/tarteGrandMere4.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/tarteGrandMere.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>tarte Grand Mère</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/tarteNormande.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/cremebrulee.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>tarte Normande</h5>
+          <h5>crême brulée</h5>
         </div>
       </div>
+      
       <div class="carousel-item">
         <img src="asset/photos/patisserie/fromageBlanc.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -494,13 +819,6 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="13" aria-label="Slide 14"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="15" aria-label="Slide 16"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="16" aria-label="Slide 17"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="17" aria-label="Slide 18"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="18" aria-label="Slide 19"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="19" aria-label="Slide 20"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="20" aria-label="Slide 21"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="21" aria-label="Slide 22"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="22" aria-label="Slide 23"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -522,6 +840,7 @@ require_once "inc/nav.php";
           <h5>Palmier</h5>
         </div>
       </div>
+      <!-- il est préférable d'avoir seulement 2 variétés car le titre est trop long -->
       <div class="carousel-item">
         <img src="asset/photos/patisserie/sabler&biscuit/financierNatureFruitsRougesPistacheChocolat.jpg" class="d-block w-100" alt="...">
         <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -530,9 +849,9 @@ require_once "inc/nav.php";
       </div>
       
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/macaron.jpg" class="d-block w-100" alt="...">
+          <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>macaron</h5>
+            <h5>Macaron Chocolat</h5>
           </div>
       </div>
       <div class="carousel-item">
@@ -544,7 +863,7 @@ require_once "inc/nav.php";
       <div class="carousel-item">
           <img src="asset/photos/patisserie/sabler&biscuit/paveCoco&Macaron.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>pavé Noix de Coco & Macaron</h5>
+            <h5>pavé Noix de Coco & Macaron Chocolat</h5>
           </div>
       </div>
       <div class="carousel-item">
@@ -563,6 +882,18 @@ require_once "inc/nav.php";
           <img src="asset/photos/patisserie/sabler&biscuit/fondantAuChocolat.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>fondant au Chocolat</h5>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>nos boîtes de macarons</h5>
+          </div>
+      </div>
+      <div class="carousel-item">
+          <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+            <h5>nos boîtes de macarons</h5>
           </div>
       </div>
       

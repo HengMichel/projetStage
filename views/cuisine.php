@@ -2,94 +2,112 @@
 include_once "inc/header.php";
 require_once "inc/nav.php";
 ?>
-<h1 class="cuisine fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
 
-<div class="container3 column-gap-md-2">
+<div class="container2 column-gap-md-2">
+  <h1 class="cuisine fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
   <h3 class="sandwichs text-center mt-5">nos sandwichs</h3>
   <div class="section1 d-flex">  
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/cruditesChevre.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/cruditesChevre.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">crudités Chèvre</p>
+        <p class="card-text text-center">Crudités Chèvre</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/cruditesEmmental.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/jambondeparme.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">crudités Emmental</p>
+        <p class="card-text text-center">Olive Jambon de Parme</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/cruditesPoulet.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/lAuvergnat.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">crudités Poulet</p>
+        <p class="card-text text-center">l'Auvergnat</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/cruditesThon.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/tomateMozzarellaBuffala.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">crudités Thon</p>
+        <p class="card-text text-center">Tomate Mozzarella Di Buffala</p>
       </div>
     </div>
   </div>
   <div class="section2 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/vegetarien.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Végétarien</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditeJambon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Jambon</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditePoulet.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Poulet</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditesEmmental.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Emmental</p>
+      </div>
+    </div>
+  </div>    
+  <div class="section3 d-flex"> 
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditesThon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Thon</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painAuLait3/saumon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">saumon</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/camenbertBeurre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Camenbert Beurre</p>
+      </div>
+    </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/emmentalBeurre.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Emmental Beurre</p>
       </div>
     </div>
+  </div>
+  <div class="section4 d-flex">
+   
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/jambondeparme.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/JambonBeurre.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Jambon de Parme</p>
+        <p class="card-text text-center">Jambon Beurre</p>
       </div>
-    </div>
+    </div> 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/jambonEmmental.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Jambon Emmental</p>
       </div>
-    </div>
+    </div> 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/lAuvergnat.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/rillette.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">l'Auvergnat</p>
+        <p class="card-text text-center">Rillette</p>
       </div>
-    </div>
-  </div>    
-  <div class="section3 d-flex"> 
+    </div> 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/pouletCrudites.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/sandwich/saucissonNapolitain.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Crudités Poulet</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/saumon.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">saumon</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/thon.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">Crudités Thon</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/tomateMozzarellaBuffala.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">Tomate Mozzarella Buffala</p>
-      </div>
-    </div>
-  </div>
-  <div class="section4 d-flex">
-   
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/sandwich/vegetarien.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">Végétarien</p>
+        <p class="card-text text-center">Saucisson Napolitain</p>
       </div>
     </div> 
   </div>
@@ -116,14 +134,14 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/traiteur" class="card-img-top" alt="...">
+      <img src="asset/photos/cuisine/traiteur/friandChair.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">friand Chair</p>
       </div>
     </div>
   </div>
 
-  <div class="section5 d-flex">
+  <div class="section6 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/traiteur/leProvencal&friandChair.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -150,7 +168,7 @@ require_once "inc/nav.php";
     </div>
   </div>
 
-  <div class="section6 d-flex">
+  <div class="section7 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/traiteur/quicheChevreEpinard.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -177,7 +195,7 @@ require_once "inc/nav.php";
     </div>
   </div>
 
-  <div class="section7 d-flex">
+  <div class="section8 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/traiteur/saucisseBriochee.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -191,16 +209,25 @@ require_once "inc/nav.php";
         <p class="card-text text-center">Saucisse Briochée</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/painAuxOlives.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pain Aux Olives</p>
+      </div>
+    </div>
   </div>
 
   <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
-  <div class="section8 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/cuisine/self/self.jpg" class="card-img-top" alt="...">
+  <div class="section9 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 11 9rem;">
+      <img src="asset/photos/cuisine/self/self2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Le Self</p>
       </div>
     </div>
+  
+  </div>
+  <div class="section10 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/self/compoteDePomme.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -213,15 +240,16 @@ require_once "inc/nav.php";
         <p class="card-text text-center">fromage Blanc</p>
       </div>
     </div>
-    
-  </div>
-  <div class="section9 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/self/mousseAuChocolat.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">mousse au Chocolat</p>
       </div>
     </div>
+    
+  </div>
+  <div class="section11 d-flex">
+    
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/self/pannacottaFruits.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -243,7 +271,7 @@ require_once "inc/nav.php";
   </div>
 
   <h3 class="cuisine2 fw-semibold mt-5 text-center">pour tous vos événements & entreprises</h3>
-  <div class="section10 d-flex">
+  <div class="section11 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/evenement/petitFourSale.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -260,9 +288,314 @@ require_once "inc/nav.php";
 
 </div>
 
+<!------------------------ format tablette ----------------------->
 
+<div class="container3 column-gap-md-2">
+  <h1 class="cuisine2 fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
+  <h3 class="sandwichs text-center mt-5">nos sandwichs</h3>
+  <div class="section1 d-flex">  
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/cruditesChevre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Chèvre</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/jambondeparme.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Olive Jambon de Parme</p>
+      </div>
+    </div>
+  </div>
+    
+  <div class="section2 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/lAuvergnat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">l'Auvergnat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/tomateMozzarellaBuffala.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Tomate Mozzarella Di Buffala</p>
+      </div>
+    </div>
+    
+  </div>
 
-<div class="container2">
+  <div class="section3 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painSpeciaux1/vegetarien.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Végétarien</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditeJambon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Jambon</p>
+      </div>
+    </div>
+  
+  </div>
+  <div class="section4 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditePoulet.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Poulet</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditesEmmental.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Emmental</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="section5 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/crudites2/cruditesThon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Crudités Thon</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painAuLait3/saumon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">saumon</p>
+      </div>
+    </div>
+    
+  </div>
+  <div class="section6 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/camenbertBeurre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Camenbert Beurre</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/emmentalBeurre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Emmental Beurre</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section7 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/JambonBeurre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Jambon Beurre</p>
+      </div>
+    </div> 
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/jambonEmmental.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Jambon Emmental</p>
+      </div>
+    </div> 
+    
+  </div>
+  <div class="section8 d-flex">
+  <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/rillette.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Rillette</p>
+      </div>
+    </div> 
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/saucissonNapolitain.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Saucisson Napolitain</p>
+      </div>
+    </div> 
+   
+  </div>
+
+  <h2 class="traiteur2 text-center mt-5">traiteur</h2>
+  <div class="section9 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/croqueMonsieur.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">croque Monsieur</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/croqueMonsieurPoulet.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">croque Monsieur Poulet</p>
+      </div>
+    </div>
+  </div>
+  <div class="section10 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/leProvencal.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">le provencal</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/friandChair.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">friand Chair</p>
+      </div>
+    </div>
+  </div>
+  <div class="section11 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/leProvencal&friandChair.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">le Provencal & friand Chair</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/pizzaJambonChampignon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pizza Jambon Champignon</p>
+      </div>
+    </div>
+  </div>
+  <div class="section12 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/leManon.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">le Manon chèvre miel</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/leManon2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">le Manon chèvre miel</p>
+      </div>
+    </div>
+  </div>
+  <div class="section13 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/quichePoireaux.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">quiche Poireaux</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/quicheChevreEpinard.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">quiche Chèvre Epinard</p>
+      </div>
+    </div>
+  </div>
+  <div class="section14 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/quicheThonTomate.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">quiche Thon Tomate</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/quicheLorraine.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">quiche Lorraine</p>
+      </div>
+    </div>
+  </div>
+  <div class="section15 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/saucisseBriochee.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Saucisse Briochée</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/saucisseBriochee2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Saucisse Briochée</p>
+      </div>
+    </div>
+  </div>
+  <div class="section16 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/painAuxOlives.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pain Aux Olives</p>
+      </div>
+    </div>
+  </div>
+
+  <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
+  <div class="section17 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 11 9rem;">
+      <img src="asset/photos/cuisine/self/self2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Le Self</p>
+      </div>
+    </div>
+  
+  </div>
+  <div class="section18 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/compoteDePomme.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">compote de Pomme</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/fromageBlanc.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">fromage Blanc</p>
+      </div>
+    </div>
+  </div>
+  <div class="section19 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/mousseAuChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">mousse au Chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/pannacottaFruits.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">panna cotta Fruits</p>
+      </div>
+    </div>
+  </div>
+  <div class="section20 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/saladeDeFruits.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">salade de Fruits</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/self/tiramisuSpeculoos.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">tiramisu Speculoos</p>
+      </div>
+    </div>
+  </div>
+  <h3 class="cuisine2 fw-semibold mt-5 text-center">pour tous vos événements & entreprises</h3>
+  <div class="section21 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/evenement/petitFourSale.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">petit Four Salé</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/evenement/petitFourSale2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">petit Four Salé</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-------------------------- format smartphone --------------->
+
+<div class="container4">
   <h3 class="cuisine3 fw-semibold mt-5 text-center">nos sandwichs</h3>
   <div id="carouselExampleCaptions" class="carousel slide mt-5">
     <div class="carousel-indicators">
@@ -286,54 +619,72 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="17" aria-label="Slide 18"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="18" aria-label="Slide 19"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="19" aria-label="Slide 20"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="20" aria-label="Slide 21"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="21" aria-label="Slide 22"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="22" aria-label="Slide 23"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="23" aria-label="Slide 24"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="24" aria-label="Slide 25"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="25" aria-label="Slide 26"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="26" aria-label="Slide 27"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="27" aria-label="Slide 28"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="28" aria-label="Slide 29"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="29" aria-label="Slide 30"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="30" aria-label="Slide 31"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="31" aria-label="Slide 32"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="32" aria-label="Slide 33"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="33" aria-label="Slide 34"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="34" aria-label="Slide 35"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="35" aria-label="Slide 36"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="36" aria-label="Slide 37"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="37" aria-label="Slide 38"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="38" aria-label="Slide 39"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="39" aria-label="Slide 40"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="40" aria-label="Slide 41"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="41" aria-label="Slide 42"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="42" aria-label="Slide 43"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="43" aria-label="Slide 44"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="asset/photos/cuisine/sandwich/cruditesChevre.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/painSpeciaux1/cruditesChevre.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Crudités Chèvre</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/cruditesEmmental.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/painSpeciaux1/jambondeparme.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Crudités Emmental</h5>
+          <h5>Olive Jambon de Parme</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/cruditesPoulet.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/painSpeciaux1/lAuvergnat.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>l'Auvergnat</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/painSpeciaux1/tomateMozzarellaBuffala.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Tomate Mozzarella Di Buffala</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/painSpeciaux1/vegetarien.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Végétarien</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/crudites2/cruditeJambon.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Crudités Jambon</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/crudites2/cruditePoulet.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Crudités Poulet</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/cruditesThon.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/crudites2/cruditesEmmental.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Crudités Emmental</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/crudites2/cruditesThon.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Crudités Thon</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/painAuLait3/saumon.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Saumon</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/camenbertBeurre.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Camenbert Beurre</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -341,11 +692,11 @@ require_once "inc/nav.php";
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Emmental Beurre</h5>
         </div>
-      </div>
+      </div>    
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/jambondeparme.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/JambonBeurre.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Jambon De Parme</h5>
+          <h5>Jambon Beurre</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -355,42 +706,17 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/lAuvergnat.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/rillette.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>l'Auvergnat</h5>
+          <h5>Rillette</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/pouletCrudites.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/sandwich/saucissonNapolitain.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Crudités Poulet</h5>
+          <h5>Saucisson Napolitain</h5>
         </div>
       </div>
-      <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/saumon.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Saumon</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/thon.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Crudités Thon</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/tomateMozzarellaBuffala.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Tomate Mozzarella Buffala</h5>
-        </div>
-      </div>    
-      <div class="carousel-item">
-        <img src="asset/photos/cuisine/sandwich/vegetarien.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Végétarien</h5>
-        </div>
-      </div>
-      
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
       <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
@@ -421,14 +747,7 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="15" aria-label="Slide 16"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="16" aria-label="Slide 17"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="17" aria-label="Slide 18"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="18" aria-label="Slide 19"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="19" aria-label="Slide 20"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="20" aria-label="Slide 21"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="21" aria-label="Slide 22"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="22" aria-label="Slide 23"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="23" aria-label="Slide 24"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="24" aria-label="Slide 25"></button>
+      
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -450,7 +769,7 @@ require_once "inc/nav.php";
         </div>
       </div>
        <div class="carousel-item">
-        <img src="asset/photos/cuisine/traiteur" class="d-block w-100" alt="...">
+        <img src="asset/photos/cuisine/traiteur/friandChair.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>friand Chair</h5>
         </div>

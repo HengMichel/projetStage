@@ -2,21 +2,15 @@
 include_once "inc/header.php";
 require_once "inc/nav.php";
 ?>
+<!--------------------------- format PC ----------------------->
+<div class="container2 column-gap-md-2">
 
-<div class="container3 column-gap-md-2">
-  <h1 class="viennoiserie fw-semibold mt-5 text-center">Notre gamme de viennoiserie</h1>
-  
+  <h1 class="viennoiserie2 fw-semibold mt-5 text-center">Notre gamme de viennoiserie</h1>
   <div class="section1 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <div class="card mt-5 border border-2 m-1" style="width: 119rem;">
       <img src="asset/photos/viennoiserie/vitrineViennoiserie.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Notre vitrine</p>
-      </div>
-    </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/viennoiserie/miniViennoiserie.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">Nos mini viennoiseries</p>
       </div>
     </div>
   </div>
@@ -131,7 +125,6 @@ require_once "inc/nav.php";
   </div>
 
   <div class="section6 d-flex">
-    
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/viennoiserie/viennoiseChocolatNature.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -150,11 +143,181 @@ require_once "inc/nav.php";
         <p class="card-text text-center">Croissant ordinaire</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/miniViennoiserie.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Nos mini viennoiseries</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!------------------------ format tablette ----------------------->
+<div class="container3 column-gap-md-2">
+  <h1 class="viennoiserie fw-semibold mt-5 text-center">Notre gamme de viennoiserie</h1>
+  
+  <div class="section1 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 50rem;">
+      <img src="asset/photos/viennoiserie/vitrineViennoiserie.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Notre vitrine</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section2 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/miniViennoiserie.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Nos mini viennoiseries</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/escargotPistChoc.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Escargot pistache chocolat</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <div class="section3 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/croissantBeurre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Croissant au beurre</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/croissantBeurre2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Croissant au beurre</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section4 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain au chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuChocolat2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain au chocolat</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section5 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuxRaisins.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain aux raisins</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuxRaisins2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain aux raisins</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section6 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/briocheSucre.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Brioche au sucre</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/pepiteChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pépite chocolat</p>
+      </div>
+    </div>
+  </div>
+  <div class="section7 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/viennoisChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Viennois chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/chouquette.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Chouquette</p>
+      </div>
+    </div>
+  </div>
+  <div class="section8 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/chaussonPomme.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Chausson aux pommes</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuLait.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain au lait</p>
+      </div>
+    </div>
+  </div>
+  <div class="section9 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/croissantAmande.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Croissant aux amandes</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/chocoAmande.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain au chocolat amande</p>
+      </div>
+    </div>
+  </div>
+  <div class="section10 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/painAuChocolatAuxAmandes.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Pain au chocolat amande</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/viennoiseChocolatNature.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Viennoise nature ou chocolat</p>
+      </div>
+    </div>
+  </div>
+  <div class="section11 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/beignetPommeNatureChocolatCreme.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Beignet crême pomme chocolat</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/viennoiserie/croissantOrdinaire.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">Croissant ordinaire</p>
+      </div>
+    </div>
   </div>
 
 </div>
-<div class="container2">
-    <h1 class="viennoiserie2 fw-semibold mt-5 text-center">Notre gamme de viennoiserie</h1>
+
+
+<!-------------------------- format smartphone --------------->
+
+<div class="container4">
+    <h1 class="viennoiserie3 fw-semibold mt-5 text-center">Notre gamme de viennoiserie</h1>
   
     <div id="carouselExampleCaptions2" class="carousel slide mt-5">
       <div class="carousel-indicators">
@@ -184,7 +347,7 @@ require_once "inc/nav.php";
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="asset/photos/viennoiserie/vitrineViennoiserie.jpg" class="d-block w-100" alt="...">
+          <img src="asset/photos/viennoiserie/vitrineViennoiserie2.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
             <h5>Notre vitrine</h5>
           </div>

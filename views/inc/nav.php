@@ -7,6 +7,7 @@
       <a class="dropdown-item" href="http://localhost/projetStage/viennoiserie.php">Notre gamme de viennoiserie</a>
       <a class="dropdown-item" href="http://localhost/projetStage/patisserie.php">Notre gamme de pâtisserie</a>
       <a class="dropdown-item" href="http://localhost/projetStage/cuisine.php">Notre gamme de cuisine</a>
+      <a class="dropdown-item" href="http://localhost/projetStage/espaceCafe.php">Notre espace café</a>
     </div>
   </div>
 </div>
