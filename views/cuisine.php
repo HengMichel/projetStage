@@ -6,6 +6,7 @@ require_once "inc/nav.php";
 <div class="container2 column-gap-md-2">
   <h1 class="cuisine fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
   <h3 class="sandwichs text-center mt-5">nos sandwichs</h3>
+
   <div class="section1 d-flex">  
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/painSpeciaux1/cruditesChevre.jpg" class="card-img-top" alt="...">
@@ -25,14 +26,15 @@ require_once "inc/nav.php";
         <p class="card-text text-center">l'Auvergnat</p>
       </div>
     </div>
+  </div>
+
+  <div class="section2 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/painSpeciaux1/tomateMozzarellaBuffala.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Tomate Mozzarella Di Buffala</p>
       </div>
     </div>
-  </div>
-  <div class="section2 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/painSpeciaux1/vegetarien.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -51,14 +53,15 @@ require_once "inc/nav.php";
         <p class="card-text text-center">Crudités Poulet</p>
       </div>
     </div>
+
+  </div>
+  <div class="section3 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/crudites2/cruditesEmmental.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Crudités Emmental</p>
       </div>
     </div>
-  </div>    
-  <div class="section3 d-flex"> 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/crudites2/cruditesThon.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -69,6 +72,15 @@ require_once "inc/nav.php";
       <img src="asset/photos/cuisine/sandwich/painAuLait3/saumon.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">saumon</p>
+      </div>
+    </div>
+  </div> 
+
+  <div class="section4 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/sandwich/painAuLait3/painAuLaitCrudites.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pain Au Lait Crudités</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -83,15 +95,16 @@ require_once "inc/nav.php";
         <p class="card-text text-center">Emmental Beurre</p>
       </div>
     </div>
+    
   </div>
-  <div class="section4 d-flex">
-   
+
+  <div class="section5 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/JambonBeurre.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Jambon Beurre</p>
       </div>
-    </div> 
+    </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/jambonEmmental.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
@@ -111,6 +124,7 @@ require_once "inc/nav.php";
       </div>
     </div> 
   </div>
+  
 
   <h2 class="traiteur text-center mt-5">traiteur</h2>
   <div class="section5 d-flex">
