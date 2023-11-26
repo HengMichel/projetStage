@@ -47,7 +47,7 @@ include_once "inc/nav.php";
           <div class="accordion-body">
             <p><strong>Achats en magasin</strong></p>
             <p><strong>Vente à emporter</strong></p> 
-            <p><strong>Commande pour vos évenements & entreprise</strong> (Devis à faire sur place)</p> 
+            <p><strong>Commande pour vos évenements & entreprise</strong> (Devis et commande à faire sur place)</p> 
           </div>
       </div>
     </div>

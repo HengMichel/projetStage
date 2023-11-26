@@ -37,7 +37,7 @@ require_once "inc/nav.php";
 
 
 <!------------------------ format tablette ----------------------->
-
+<!-- conserver ce format une image par section  -->
 <div class="container3 column-gap-md-2">
     <h1 class="espaceCafe fw-semibold mt-5 text-center">Notre espace Café</h1>
     <div class="section1 d-flex">
