@@ -229,6 +229,12 @@ require_once "inc/nav.php";
         <p class="card-text text-center">pain Aux Olives</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/painAuxOlives2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pain Aux Olives</p>
+      </div>
+    </div>
   </div>
 
   <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
@@ -535,6 +541,13 @@ require_once "inc/nav.php";
         <p class="card-text text-center">pain Aux Olives</p>
       </div>
     </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/cuisine/traiteur/painAuxOlives2.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">pain Aux Olives</p>
+      </div>
+    </div>
+   
   </div>
 
   <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
@@ -848,6 +861,18 @@ require_once "inc/nav.php";
         <img src="asset/photos/cuisine/traiteur/saucisseBriochee2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Saucisse Briochée</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/traiteur/painAuxOlives.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>pain Aux Olives</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/traiteur/painAuxOlives2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>pain Aux Olives</h5>
         </div>
       </div>
      
