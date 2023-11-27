@@ -433,7 +433,7 @@ require_once "inc/nav.php";
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/tarteCitron10.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/tarteCitron10P.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">tarte Citron 10 Pers</p>
       </div>
