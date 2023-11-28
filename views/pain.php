@@ -80,12 +80,6 @@ require_once "inc/nav.php";
         <p class="card-text text-center">Bûcheron</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/pains/bouleRaisin.jpg" class="card-img-top" alt="...">
-      <div class="card-body bg-secondary">
-        <p class="card-text text-center">boule aux Raisins</p>
-      </div>
-    </div>
   </div>
   <div class="section4 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -100,7 +94,13 @@ require_once "inc/nav.php";
         <p class="card-text text-center">pain de mie</p>
       </div>
     </div>
-  </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/pains/bouleRaisin.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">boule aux Raisins</p>
+      </div>
+    </div>
+  </div>  
 </div>
 
 

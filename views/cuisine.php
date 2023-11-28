@@ -239,7 +239,7 @@ require_once "inc/nav.php";
 
   <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
   <div class="section9 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 11 9rem;">
+    <div class="card mt-5 border border-2 m-1" style="width: 119rem;">
       <img src="asset/photos/cuisine/self/self2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Le Self</p>
@@ -552,7 +552,7 @@ require_once "inc/nav.php";
 
   <h3 class="self fw-semibold mt-5 text-center">le self service</h3>
   <div class="section17 d-flex">
-    <div class="card mt-5 border border-2 m-1" style="width: 11 9rem;">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/self/self2.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Le Self</p>
@@ -642,10 +642,6 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="16" aria-label="Slide 17"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="17" aria-label="Slide 18"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="18" aria-label="Slide 19"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="19" aria-label="Slide 20"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -773,8 +769,6 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="13" aria-label="Slide 14"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="15" aria-label="Slide 16"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="16" aria-label="Slide 17"></button>
-      
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -899,9 +893,6 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="4" aria-label="Slide 5"></button>    
       <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="5" aria-label="Slide 6"></button>    
       <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="6" aria-label="Slide 7"></button>    
-      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="7" aria-label="Slide 8"></button>    
-      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="8" aria-label="Slide 9"></button>    
-      <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="9" aria-label="Slide 10"></button> 
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
