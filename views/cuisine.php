@@ -642,6 +642,7 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="13" aria-label="Slide 14"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="15" aria-label="Slide 16"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="16" aria-label="Slide 17"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -702,6 +703,12 @@ require_once "inc/nav.php";
         <img src="asset/photos/cuisine/sandwich/painAuLait3/saumon.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Saumon</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/cuisine/sandwich/painAuLait3/painAuLaitCrudites.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>pain Au Lait Crudités</h5>
         </div>
       </div>
       <div class="carousel-item">
@@ -843,14 +850,12 @@ require_once "inc/nav.php";
           <h5>Quiche Poireaux</h5>
         </div>
       </div>
-      
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/saucisseBriochee.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Saucisse Briochée</h5>
         </div>
       </div>
-      
       <div class="carousel-item">
         <img src="asset/photos/cuisine/traiteur/saucisseBriochee2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
@@ -869,9 +874,6 @@ require_once "inc/nav.php";
           <h5>pain Aux Olives</h5>
         </div>
       </div>
-     
-     
-      
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
       <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
