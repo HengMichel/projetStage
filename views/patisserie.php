@@ -539,7 +539,6 @@ require_once "inc/nav.php";
         <h5>Palmier</h5>
       </div>
     </div> 
-  <div class="section15 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/palmier2.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
@@ -629,14 +628,14 @@ require_once "inc/nav.php";
     </div>  
 
   </div>
-  <div class="section21">
-  <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+  <div class="section21 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/financierNatureChocolat.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
         <h5>financier Nature ou Chocolat</h5>
       </div>
     </div>  
-     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheFruitsRouges.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
         <h5>financier Pistache ou Fruits Rouges</h5>
@@ -908,31 +907,36 @@ require_once "inc/nav.php";
           <h5>Palmier</h5>
         </div>
       </div>
-      <!-- il est préférable d'avoir seulement 2 variétés car le titre est trop long -->
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/sabler&biscuit/financierNatureFruitsRougesPistacheChocolat.jpg" class="d-block w-100" alt="...">
-        <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>financier Nature FruitsRouges Pistache Chocolat</h5>
+        <img src="asset/photos/patisserie/sabler&biscuit/palmier2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Palmier</h5>
         </div>
       </div>
       
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>Macaron Chocolat</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Macaron Chocolat</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/paveNoixDeCoco.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>pavé Noix de Coco</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/macaronChocolat2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Macaron Chocolat</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/paveCoco&Macaron.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>pavé Noix de Coco & Macaron Chocolat</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/paveNoixDeCoco.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>pavé Noix de Coco</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/sabler&biscuit/paveNoixDeCoco2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>pavé Noix de Coco</h5>
+        </div>
       </div>
       <div class="carousel-item">
           <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat.jpg" class="d-block w-100" alt="...">
@@ -941,36 +945,47 @@ require_once "inc/nav.php";
           </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat2.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>sablé Chocolat</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/sableChocolat2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>sablé Chocolat</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/fondantAuChocolat.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>fondant au Chocolat</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/fondantAuChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>fondant au Chocolat</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/macaron6P.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>nos boîtes de macarons 6 pièces</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/fondantAuChocolat2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>fondant au Chocolat</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/macaron9P.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>nos boîtes de macarons 9 pièces</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>nos boîtes de macarons</h5>
+        </div>
       </div>
       <div class="carousel-item">
-          <img src="asset/photos/patisserie/sabler&biscuit/macaron12P.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-            <h5>nos boîtes de macarons 12 pièces</h5>
-          </div>
+        <img src="asset/photos/patisserie/sabler&biscuit/macaronBoite2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>nos boîtes de macarons 9 pièces</h5>
+        </div>
       </div>
-      
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierNatureChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>financier Nature ou Chocolat</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheFruitsRouges.jpg" class="d-block w-100" alt="...">
+        <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>financier Pistache ou FruitsRouges</h5>
+        </div>
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
       <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
