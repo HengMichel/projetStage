@@ -128,14 +128,10 @@ body{
 
 }
 .container{
-    /*width:900px;*/
+  /*pour centrer la page dans le navigateurs*/
     margin:0 auto;
-    /*pour centrer la page dans le navigateurs*/
     
 }
-
-
-
 /*************** END GLOBAL ***************/
 
 /*************** HEADER ***************/
@@ -222,10 +218,7 @@ h5{
 /*************** END SECTION 2 ***************/
 
 /*************** SECTION 3 ***************/
-.carousel-inner{
-  /* margin: auto;
-  width: 65%; */
-}
+
 /*************** END SECTION 3 ***************/
 
 /*************** END MAIN ***************/
@@ -236,7 +229,14 @@ h5{
 
 /*************** MEDIAQUERY ***************/
 
-@media (max-width: 900px) {
+@media (max-width: 1023px) {
+  .titre{
+    font-size: 100px;
+  }
+  .logo{
+    width: 40%;
+    margin-top: 2%;
+  }
   .titlePaiement{
     margin: auto;
     margin-right: 7%;
@@ -250,7 +250,6 @@ h5{
  .accordion-body>p{
   display: block;
   }
-
  .carousel-caption {
   width: max-content;
   }
@@ -259,17 +258,12 @@ h5{
   }
   .carousel-inner {
     margin: auto;
-    width: 87%;
-}
-  
+  }
   .container2{
     display: none;
   }
   .container4{
     display: none;
-  }
-  .logo{
-    width: 45%;
   }
   .container3{
     display: block;
