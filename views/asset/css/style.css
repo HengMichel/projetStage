@@ -208,7 +208,7 @@ h5{
   font-size: 20px;
 }
 .btn{
-  margin-top: 9%;
+  margin-top: 10%;
 }
 /*************** END SECTION 1 ***************/
 .container3{
@@ -236,7 +236,7 @@ h5{
 
 /*************** MEDIAQUERY ***************/
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .titlePaiement{
     margin: auto;
     margin-right: 7%;
