@@ -20,13 +20,13 @@ require_once "inc/nav.php";
       </div>
     </div>
    
-    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/pains/marysette.jpg" class="card-img-top" alt="...">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/espaceCafe/espaceCafe3.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Marysette</p>
+        <p class="card-text text-center">la pause café</p>
       </div>
     </div>
-    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+    <!-- <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/pains/baguette.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
         <p class="card-text text-center">Baguette</p>
@@ -59,6 +59,14 @@ require_once "inc/nav.php";
       </div>
     </div>
   </div> 
+  <div class="section3 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/espaceCafe/espaceCafe3.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+          <p class="card-text text-center">la pause café</p>
+      </div>
+    </div>
+  </div> 
 </div>
 
 <!-------------------------- format smartphone --------------->
@@ -72,26 +80,26 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
     </div>
-    <div class="carousel-inner"> 
+    <div class="carousel-inner active"> 
+      <div class="carousel-item">
+        <img src="asset/photos/espaceCafe/espaceCafe.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>Notre machine à café</h5>
+        </div>
+      </div>
       <div class="carousel-item">
         <img src="asset/photos/espaceCafe/espaceCafe2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Notre machine à café multi-boisson</h5>
+          <h5>la pause café</h5>
         </div>
       </div>
-      <div class="carousel-item active">
-        <img src="asset/photos/espaceCafe/espaceCafe.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-item">
+        <img src="asset/photos/espaceCafe/espaceCafe3.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>la pause café</h5>
         </div>
       </div>
       <!-- <div class="carousel-item">
-        <img src="asset/photos/pains/marysette.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Marysette</h5>
-        </div>
-      </div>
-      <div class="carousel-item">
         <img src="asset/photos/pains/baguette.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
           <h5>Baguette</h5>
