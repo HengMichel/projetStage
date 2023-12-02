@@ -11,7 +11,6 @@
   /* Autres propriétés facultatives comme font-weight, font-style, etc. */
 }
 
-
 /* 
 Une mise en page flexible doit avoir un élément parent avec la propriété display définie sur flex.
 Les éléments enfants directs du conteneur flexible deviennent automatiquement des éléments flexibles.
@@ -83,12 +82,9 @@ flex-grow
 display: flex;
 align-items: stretch;
 flex-shrink
-
-
 flex-basis
 flex : auto // On l'utilse pour les enfants
 align-self
-
 
 flex-flow
 
@@ -123,20 +119,17 @@ img{
 }
 body{
   /* Utilisez le nom que vous avez donné à votre police */
-    font-family: cursive;   
+    font-family: sans-serif;   
     background-color: rgb(87,90,99);
-
 }
 .container{
-  /*pour centrer la page dans le navigateurs*/
+    /*width:900px;*/
     margin:0 auto;
-    
+    /*pour centrer la page dans le navigateurs*/
 }
 /*************** END GLOBAL ***************/
 
 /*************** HEADER ***************/
-
-/*************** END HEADER ***************/
 .presentation{
   text-align: center;
 }
@@ -147,13 +140,15 @@ body{
 .logo{
   width: 25%;
 }
+
+/*************** END HEADER ***************/
 .logo1{
   display: none;
 }
 .avis{
   color: white;
   text-decoration: none;
-  font-size: 26px;
+  font-size: 24px;
 }
 /*************** NAV ***************/
 /*************** END NAV ***************
@@ -161,6 +156,31 @@ body{
 /*************** MAIN ***************/
 .card-title{
   color: white;
+  font-size: 30px;
+}
+.card-text{
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}	
+.accordion-button{
+  font-weight: bolder;
+  font-size: 20px;
+}
+.dropdown-item{
+  font-size: 20px;
+}
+h5{
+  font-size: 25px;
+}
+h3{
+  font-size: 30px;
+}
+.accordion-body{
+  font-size: 20px;
+}	
+.avis{
+  font-size: 20px;
 }
 .fa-brands{
   font-size: 40px;
@@ -234,8 +254,11 @@ h5{
     font-size: 100px;
   }
   .logo{
-    width: 40%;
-    margin-top: 2%;
+    width: 45%;
+	  margin-top: 2%;
+  }
+  .btn{
+    margin-top: 9%;
   }
   .titlePaiement{
     margin: auto;
@@ -252,9 +275,6 @@ h5{
   }
  .carousel-caption {
   width: max-content;
-  }
-  .btn{
-    margin-top: 8%;
   }
   .carousel-inner {
     margin: auto;
@@ -303,7 +323,7 @@ h5{
     width: auto;
   }
   .card-text{
-    font-family: cursive;   
+	  font-family: cursive;   
     font-size: 25px;
   }
   .accordion-button{
@@ -324,7 +344,6 @@ h5{
     font-size: 20px;
   }
 }
-
 
 /*************** END MEDIAQUERY ***************/
 
