@@ -11,6 +11,10 @@
   /* Autres propriétés facultatives comme font-weight, font-style, etc. */
 }
 
+@font-face {
+  font-family:'Dancing' ;
+  src: url('./font/DancingScript-VariableFont_wght.ttf');
+}
 /* 
 Une mise en page flexible doit avoir un élément parent avec la propriété display définie sur flex.
 Les éléments enfants directs du conteneur flexible deviennent automatiquement des éléments flexibles.
@@ -120,6 +124,7 @@ img{
 body{
   /* Utilisez le nom que vous avez donné à votre police */
     font-family: sans-serif;   
+    /* font-family: 'Dancing'; */
     background-color: rgb(87,90,99);
 }
 .container{
