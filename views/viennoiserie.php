@@ -135,7 +135,7 @@ require_once "inc/nav.php";
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/viennoiserie/beignetPommeNatureChocolatCreme.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Beignet crême pomme chocolat</p>
+        <p class="card-text text-center">Beignet crême,pomme,chocolat</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -302,7 +302,7 @@ require_once "inc/nav.php";
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/viennoiserie/beignetPommeNatureChocolatCreme.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Beignet crême pomme chocolat</p>
+        <p class="card-text text-center">Beignet crême,pomme,chocolat</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -433,7 +433,7 @@ require_once "inc/nav.php";
         <div class="carousel-item">
           <img src="asset/photos/viennoiserie/beignetPommeNatureChocolatCreme.jpg" class="d-block w-100" alt="...">
           <div class="beignet carousel-caption d-md-block form-select-lg sticky-top col-4 container">
-            <h5>Beignet crême pomme chocolat</h5>
+            <h5>Beignet crême,pomme,chocolat</h5>
           </div>
         </div>
         <div class="carousel-item">
