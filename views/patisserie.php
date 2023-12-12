@@ -186,7 +186,6 @@ require_once "inc/nav.php";
 
   <h3 class="produitsSecs fw-semibold mt-5 text-center">nos produits secs</h3>
   <div class="section8 d-flex">
-
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/patisserie/sabler&biscuit/cookie.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
@@ -286,18 +285,44 @@ require_once "inc/nav.php";
       </div>
     </div>
    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/sabler&biscuit/financierNatureChocolat.jpg" class="d-block w-100" alt="...">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaron6P.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">financier Nature ou Chocolat</p>
+        <p class="card-text text-center">nos boîtes de macarons</p>
       </div>
     </div>  
    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheFruitsRouges.jpg" class="d-block w-100" alt="...">
+      <img src="asset/photos/patisserie/sabler&biscuit/macaron9P.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">financier Pistache ou Fruits Rouges</p>
+        <p class="card-text text-center">nos boîtes de macarons</p>
+      </div>
+    </div> 
+
+  </div>
+  <div class="section12 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierNature.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Nature</p>
+      </div>
+    </div>
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierChocolat.jpg" class="card-img-top" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Chocolat</p>
+      </div>
+    </div>
+   <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheGriotte.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Pistache</p>
       </div>
     </div>  
-
+   <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierFruitsRouge.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Fruits Rouges</p>
+      </div>
+    </div>  
   </div>
   
   <h3 class="evenements fw-semibold mt-5 text-center">pour tous vos événements & entreprises</h3>
@@ -630,15 +655,30 @@ require_once "inc/nav.php";
   </div>
   <div class="section21 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/sabler&biscuit/financierNatureChocolat.jpg" class="d-block w-100" alt="...">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierNature.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">financier Nature ou Chocolat</p>
+        <p class="card-text text-center">financier Nature</p>
       </div>
     </div>  
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheFruitsRouges.jpg" class="d-block w-100" alt="...">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierFruitsRouge.jpg" class="d-block w-100" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">financier Pistache ou Fruits Rouges</p>
+        <p class="card-text text-center">financier Fruits Rouges</p>
+      </div>
+    </div>  
+  </div>
+
+  <div class="section22 d-flex">
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierChocolat.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Chocolat</p>
+      </div>
+    </div>  
+    <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
+      <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheGriotte.jpg" class="d-block w-100" alt="...">
+      <div class="card-body bg-secondary">
+        <p class="card-text text-center">financier Pistache</p>
       </div>
     </div>  
   </div>
@@ -880,6 +920,8 @@ require_once "inc/nav.php";
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="13" aria-label="Slide 14"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="14" aria-label="Slide 15"></button>
       <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="15" aria-label="Slide 16"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="16" aria-label="Slide 17"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="17" aria-label="Slide 18"></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -969,15 +1011,27 @@ require_once "inc/nav.php";
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/sabler&biscuit/financierNatureChocolat.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierNature.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>financier Nature ou Chocolat</h5>
+          <h5>financier Nature</h5>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheFruitsRouges.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierFruitsRouge.jpg" class="d-block w-100" alt="...">
         <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>financier Pistache ou FruitsRouges</h5>
+          <h5>financier FruitsRouges</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierChocolat.jpg" class="d-block w-100" alt="...">
+        <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>financier Chocolat</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="asset/photos/patisserie/sabler&biscuit/financierPistacheGriotte.jpg" class="d-block w-100" alt="...">
+        <div class="financier carousel-caption d-md-block form-select-lg sticky-top col-3 container">
+          <h5>financier Pistache</h5>
         </div>
       </div>
     </div>
