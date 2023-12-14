@@ -8,9 +8,9 @@ require_once "inc/nav.php";
 
   <div class="section1 d-flex">
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/carachoc.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/tarteNoix.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Carachoc</p>
+        <p class="card-text text-center">tarte aux Noix</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -350,9 +350,9 @@ require_once "inc/nav.php";
   <div class="section1 d-flex">
 
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
-      <img src="asset/photos/patisserie/carachoc.jpg" class="card-img-top" alt="...">
+      <img src="asset/photos/patisserie/tarteNoix.jpg" class="card-img-top" alt="...">
       <div class="card-body bg-secondary">
-        <p class="card-text text-center">Carachoc</p>
+        <p class="card-text text-center">tarte aux Noix</p>
       </div>
     </div>
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
@@ -736,9 +736,9 @@ require_once "inc/nav.php";
     
     <div class="carousel-inner">  
       <div class="carousel-item active">
-        <img src="asset/photos/patisserie/carachoc.jpg" class="d-block w-100" alt="...">
+        <img src="asset/photos/patisserie/tarteNoix.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-md-block form-select-lg sticky-top col-3 container">
-          <h5>Carachoc</h5>
+          <h5>tarte aux Noix</h5>
         </div>
       </div>
       <div class="carousel-item">
