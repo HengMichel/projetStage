@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
  1: Site vitrine = enseigne ,photo , présentation courte , pas de navbar , pas de formulaire.
 
 	- trouver la bonne font police
@@ -141,3 +142,31 @@
 
 
 
+=======
+ 1: Site vitrine = enseigne ,photo , présentation courte , pas de navbar , pas de formulaire.
+
+	- trouver la bonne font police
+	- thème (couleur de l'entreprise)
+	- construire un site qui sera utilisé majoritairment avec un smartphone -> maximiser l'expérience utilisateur
+	- classé les photos des produits par catégorie
+	- icone : (clim ,carte bleu ,ticket resto , couteau fourchette  (dejeuner sur place),  
+
+ 2: souhaits : 
+
+	- clients peuvent laisser des commentaires... (lien de redirection plus simple) 
+  	- adresse + carte gps
+	- numéro de téléphone
+	- site référencé via google
+	- indiquer les horaires
+	- les modes de paiement acceptés (logos icones)
+	- possibilité de déjeuner sur place (logos + logo clim)
+	
+
+
+
+
+
+
+
+
+>>>>>>> Stashed changes
