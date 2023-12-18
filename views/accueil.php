@@ -33,7 +33,7 @@ include_once "inc/nav.php";
         <p class="card-text mt-3"><span class="jeudi"><strong>jeudi de 7h à 19h45</strong></span></p>
         <p class="card-text mt-3"><span class="vendredi"><strong>vendredi de 7h à 19h30</strong></span></p>
         <p class="card-text mt-3"><span class="samedi"><strong>samedi de 9h à 19h00</strong></span></p>
-        <p class="card-text mt-3"><strong>dimanche</strong> <strong>FERME</strong></p>
+        <p class="card-text mt-3"><strong>dimanche</strong> <strong class="fermeture">FERME</strong></p>
       </div>
     </div>
     <div class="accordion container mt-3" style="max-width: 26rem;" id="accordionExample">

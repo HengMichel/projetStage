@@ -349,6 +349,9 @@ h5{
   .accordion-body{
     font-size: 20px;
   }
+  .fermeture{
+    font-family: sans-serif;
+  }
 }
 
 /*************** END MEDIAQUERY ***************/
