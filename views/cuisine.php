@@ -6,7 +6,6 @@ require_once "inc/nav.php";
 <div class="container2 column-gap-md-2">
   <h1 class="cuisine fw-semibold mt-5 text-center">Notre gamme cuisine</h1>
   <h3 class="sandwichs text-center mt-5">nos sandwichs</h3>
-
   <div class="section1 d-flex">  
     <div class="card mt-5 border border-2 m-1" style="width: 90rem;">
       <img src="asset/photos/cuisine/sandwich/painSpeciaux1/cruditesChevre.jpg" class="card-img-top" alt="...">

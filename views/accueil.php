@@ -96,11 +96,11 @@ include_once "inc/nav.php";
   <div class="card-header">Actualité</div>
   <div class="card-body">
     <h4 class="card-title">L'avis du Petit Futé sur LAURENT DHEILLY</h4>
-    <p class="card-text"> 
-Une belle boulangerie datant de 1900 où Laurent Dheilly exerce en maître de la baguette de tradition, croustillante juste ce qu’il faut avec une belle mie, bien serrée. Dans ce quartier qui bouge toute la journée et à la demande de ses clients, il a mis l’accent sur la pâtisserie et la petite restauration (belle variété de quiches, pizzas, friands, croque-monsieur, saucisse briochée et toute une gamme de sandwiches). D’excellents macarons et un superbe éclair à la pistache réjouissent les gourmands et les gourmandes.</p>
+    <p class="card-text">
+      Une belle boulangerie datant de 1900 où Laurent Dheilly exerce en maître de la baguette de tradition, croustillante juste ce qu’il faut avec une belle mie, bien serrée. Dans ce quartier qui bouge toute la journée et à la demande de ses clients, il a mis l’accent sur la pâtisserie et la petite restauration (belle variété de quiches, pizzas, friands, croque-monsieur, saucisse briochée et toute une gamme de sandwiches). D’excellents macarons et un superbe éclair à la pistache réjouissent les gourmands et les gourmandes.
+    </p>
   </div>
 </div>
-    <!-- <div class="g-recaptcha" data-sitekey="VOTRE_CLE_RECAPTCHA"></div> -->
 <?php
 include_once "inc/footer.php";
 ?>
