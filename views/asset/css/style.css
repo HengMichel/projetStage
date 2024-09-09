@@ -3,7 +3,8 @@
 /* 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"); */
 
-@font-face {
+@font-face 
+{
   /* Donnez un nom à votre police */
   font-family: 'AcrosstheRoad';
   /* Spécifiez le chemin vers le fichier de police */
@@ -11,7 +12,8 @@
   /* Autres propriétés facultatives comme font-weight, font-style, etc. */
 }
 
-@font-face {
+@font-face 
+{
   font-family:'Dancing' ;
   src: url('./font/DancingScript-VariableFont_wght.ttf');
 }
@@ -118,17 +120,20 @@ time, mark, audio, video {
 *{
     box-sizing: border-box;/*pour garder la meme taille*/
 }
-img{
+img
+{
     width:100%;
 }
-body{
+body
+{
   /* Utilisez le nom que vous avez donné à votre police */
     font-family: sans-serif;   
     /* font-family: 'Dancing'; */
     background-color: rgb(87,90,99);
 }
 
-.container{
+.container
+{
     /*width:900px;*/
     margin:0 auto;
     /*pour centrer la page dans le navigateurs*/
@@ -136,22 +141,27 @@ body{
 /*************** END GLOBAL ***************/
 
 /*************** HEADER ***************/
-.presentation{
+.presentation
+{
   text-align: center;
 }
-.titre{
+.titre
+{
   font-size: 110px;
   font-family: 'AcrosstheRoad', sans-serif; 
 }
-.logo{
+.logo
+{
   width: 25%;
 }
 
 /*************** END HEADER ***************/
-.logo1{
+.logo1
+{
   display: none;
 }
-.avis{
+.avis
+{
   color: white;
   text-decoration: none;
   font-size: 24px;
@@ -160,200 +170,238 @@ body{
 /*************** END NAV ***************
 
 /*************** MAIN ***************/
-.card-title{
+.card-title
+{
   color: white;
   font-size: 30px;
 }
-.card-text{
+.card-text
+{
   color: white;
   font-size: 20px;
   font-weight: bolder;
 }	
-.accordion-button{
+.accordion-button
+{
   font-weight: bolder;
   font-size: 20px;
 }
-.dropdown-item{
+.dropdown-item
+{
   font-size: 20px;
 }
-h5{
+h5
+{
   font-size: 25px;
 }
-h3{
+h3
+{
   font-size: 30px;
 }
-.accordion-body{
+.accordion-body
+{
   font-size: 20px;
 }	
 .avis{
   font-size: 20px;
 }
-.fa-brands{
+.fa-brands
+{
   font-size: 40px;
 }
-.ticketResto{
+.ticketResto
+{
   width: 49%;
   margin-top: 8px;
 }
-.blocM{
+.blocM
+{
   display: flex;
 }
-.titlePaiement{
+.titlePaiement
+{
   margin-bottom: 5px;
 }
-.lundi{
+.lundi
+{
   color: #085F4A;
 }
-.mardi{
+.mardi
+{
   color: #7C2C47;
 }
-.mercredi{
+.mercredi
+{
   color: #D8ED5E;
 }
 .jeudi{
   color: #6C5047;
 }
-.vendredi{
+.vendredi
+{
   color: #C8C7CB;
 }
-.samedi{
+.samedi
+{
   color: #e20e23;
 }
 /*************** SECTION 1 ***************/
-h5{
+h5
+{
   margin-top: 10px; 
 }
-.container3>img{
+.container3>img
+{
   display: flex;
 }
-.card-text{
+.card-text
+{
   font-size: 20px;
 }
-.btn{
+.btn
+{
   margin-top: 10%;
 }
 /*************** END SECTION 1 ***************/
-.container3{
+.container3
+{
   display: none;
 }
-.container4{
+.container4
+{
   display: none;
 }
-/*************** SECTION 2 ***************/
-
-/*************** END SECTION 2 ***************/
-
-/*************** SECTION 3 ***************/
-
-/*************** END SECTION 3 ***************/
-
-/*************** END MAIN ***************/
-
-/*************** FOOTER ***************/
-
-/*************** END FOOTER ***************/
 
 /*************** MEDIAQUERY ***************/
 
-@media (max-width: 1023px) {
-  .titre{
+@media (max-width: 1023px) 
+{
+  .titre
+  {
     font-size: 100px;
   }
-  .logo{
+  .logo
+  {
     width: 45%;
 	  margin-top: 2%;
   }
-  .btn{
+  .btn
+  {
     margin-top: 9%;
   }
-  .titlePaiement{
+  .titlePaiement
+  {
     margin: auto;
     margin-right: 7%;
   }
-  .ticketResto{
+  .ticketResto
+  {
     width: 88%;
   }
-  .fa-star{
+  .fa-star
+  {
     margin-left: 2%;
   }
- .accordion-body>p{
+ .accordion-body>p
+ {
   display: block;
   }
- .carousel-caption {
+ .carousel-caption 
+ {
   width: max-content;
   }
-  .carousel-inner {
+  .carousel-inner 
+  {
     margin: auto;
   }
-  .container2{
+  .container2
+  {
     display: none;
   }
-  .container4{
+  .container4
+  {
     display: none;
   }
-  .container3{
+  .container3
+  {
     display: block;
   }
 }
 
-@media (max-width: 480px) {
-  .titre{
+@media (max-width: 480px) 
+{
+  .titre
+  {
     font-size: 50px;
   }
-  .blocM{
+  .blocM
+  {
     display: block;
   }
-  .ticketResto{
+  .ticketResto
+  {
     width: 64%;
   }
-  .btn{
+  .btn
+  {
     margin-bottom: 3%;
     margin-top: auto;
   }
-  .carousel-inner{
+  .carousel-inner
+  {
     width: 100%;
   }
-  .container2{
+  .container2
+  {
     display: none;
   }
-  .container3{
+  .container3
+  {
     display: none;
   }
-  .container4{
+  .container4
+  {
     display: contents;
   }
   .logo{
     width: 40%;
   }
-  .carousel-caption {
+  .carousel-caption 
+  {
     width: auto;
   }
-  .card-text{
+  .card-text
+  {
 	  font-family: cursive;   
     font-size: 25px;
   }
-  .accordion-button{
+  .accordion-button
+  {
     font-family: cursive;   
     font-size: 25px;
   }
-  .dropdown-item{
+  .dropdown-item
+  {
     font-family: cursive;   
     font-size: 25px;
   }
-  h5{
+  h5
+  {
     font-size: 30px;
   }
-  h3{
+  h3
+  {
     font-size: 35px;
   }
-  .accordion-body{
+  .accordion-body
+  {
     font-size: 20px;
   }
-  .fermeture{
+  .fermeture
+  {
     font-family: sans-serif;
   }
 }
-
 /*************** END MEDIAQUERY ***************/
 
 
