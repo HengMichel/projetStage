@@ -154,7 +154,10 @@ body
 {
   width: 25%;
 }
-
+.d-block{
+  margin: auto;
+  height: 600px;
+}
 /*************** END HEADER ***************/
 .logo1
 {
